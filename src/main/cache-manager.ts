@@ -2,36 +2,46 @@ import crypto from 'node:crypto';
 import fs from 'node:fs';
 import path from 'node:path';
 import { app } from 'electron';
-import type { Language, InsightId, CacheEntry, DynamicCache, StaticCacheEntry } from '../shared/types';
-import { APP_DATA_DIR, DYNAMIC_CACHE_MAX } from '../shared/constants';
-import { readJson, writeJson } from './storage';
+import type { Language, InsightId, CacheEntry, StaticCacheEntry } from '../shared/types';
+import { lookupDynamicCache, saveDynamicCache } from './database';
 
-let staticCache: StaticCacheEntry[] | null = null;
+const staticCacheByChapter: Record<string, StaticCacheEntry[]> = {};
 
-function loadStaticCache(): StaticCacheEntry[] {
-  if (staticCache) return staticCache;
+const CACHE_FILE_MAP: Record<string, string> = {
+  'ch1-patterns': 'ch1-patterns-cache.json',
+  'ch5-prime-time': 'ch5-prime-time-cache.json',
+  'ch7-fractions': 'fractions-cache.json',
+};
 
-  // Try loading from bundled data
+function loadStaticCache(chapterId: string): StaticCacheEntry[] {
+  if (staticCacheByChapter[chapterId]) return staticCacheByChapter[chapterId];
+
+  const filename = CACHE_FILE_MAP[chapterId];
+  if (!filename) {
+    staticCacheByChapter[chapterId] = [];
+    return [];
+  }
+
   const possiblePaths = [
-    path.join(process.resourcesPath || '', 'data', 'cache', 'fractions-cache.json'),
-    path.join(app.getAppPath(), 'data', 'cache', 'fractions-cache.json'),
-    path.join(__dirname, '..', '..', 'data', 'cache', 'fractions-cache.json'),
+    path.join(process.resourcesPath || '', 'data', 'cache', filename),
+    path.join(app.getAppPath(), 'data', 'cache', filename),
+    path.join(__dirname, '..', '..', 'data', 'cache', filename),
   ];
 
   for (const p of possiblePaths) {
     try {
       if (fs.existsSync(p)) {
         const raw = fs.readFileSync(p, 'utf-8');
-        staticCache = JSON.parse(raw);
-        return staticCache!;
+        staticCacheByChapter[chapterId] = JSON.parse(raw);
+        return staticCacheByChapter[chapterId];
       }
     } catch {
       continue;
     }
   }
 
-  staticCache = [];
-  return staticCache;
+  staticCacheByChapter[chapterId] = [];
+  return [];
 }
 
 function makeCacheKey(language: Language, insights: InsightId[], question: string): string {
@@ -42,25 +52,26 @@ function makeCacheKey(language: Language, insights: InsightId[], question: strin
 }
 
 function fuzzyMatch(question: string, keywords: string[]): boolean {
+  if (question.trim().split(/\s+/).length < 3) return false;
   const words = question.toLowerCase().split(/\s+/);
   const matchCount = keywords.filter(kw => words.some(w => w.includes(kw.toLowerCase())));
-  return matchCount.length >= Math.ceil(keywords.length * 0.5);
+  return matchCount.length >= Math.ceil(keywords.length * 0.6);
 }
 
 export function lookupCache(
   language: Language,
   insights: InsightId[],
   question: string,
+  chapterId?: string,
 ): CacheEntry | null {
-  // Tier 1: Dynamic cache (exact hash match)
-  const dynamicCache = readJson<DynamicCache>('dynamic-cache.json', { entries: {} });
+  // Tier 1: Dynamic cache (exact hash match) — from SQLite
   const key = makeCacheKey(language, insights, question);
-  if (dynamicCache.entries[key]) {
-    return dynamicCache.entries[key];
-  }
+  const dynamicHit = lookupDynamicCache(key);
+  if (dynamicHit) return dynamicHit;
 
-  // Tier 2: Static cache (fuzzy match)
-  const statics = loadStaticCache();
+  // Tier 2: Static cache (fuzzy match) — chapter-specific
+  const cacheChapterId = chapterId || 'ch7-fractions';
+  const statics = loadStaticCache(cacheChapterId);
   for (const entry of statics) {
     if (entry.language === language && fuzzyMatch(question, entry.keywords)) {
       return {
@@ -82,29 +93,8 @@ export function cacheResponse(
   question: string,
   answer: string,
   insightsUnlocked: InsightId[],
+  chapterId?: string,
 ): void {
-  const dynamicCache = readJson<DynamicCache>('dynamic-cache.json', { entries: {} });
   const key = makeCacheKey(language, insights, question);
-
-  dynamicCache.entries[key] = {
-    question,
-    answer,
-    language,
-    insights: insightsUnlocked,
-    timestamp: Date.now(),
-  };
-
-  // LRU eviction if over limit
-  const keys = Object.keys(dynamicCache.entries);
-  if (keys.length > DYNAMIC_CACHE_MAX) {
-    const sorted = keys.sort(
-      (a, b) => dynamicCache.entries[a].timestamp - dynamicCache.entries[b].timestamp,
-    );
-    const toRemove = sorted.slice(0, keys.length - DYNAMIC_CACHE_MAX);
-    for (const k of toRemove) {
-      delete dynamicCache.entries[k];
-    }
-  }
-
-  writeJson('dynamic-cache.json', dynamicCache);
+  saveDynamicCache(key, question, answer, language, insightsUnlocked, chapterId);
 }

@@ -11,38 +11,27 @@ export default function ConfettiOverlay({ type }: ConfettiOverlayProps) {
 
   useEffect(() => {
     if (type === 'mastery') {
-      // Big celebration burst
       const duration = 2000;
       const end = Date.now() + duration;
-
       const frame = () => {
         confetti({
-          particleCount: 5,
-          angle: 60,
-          spread: 55,
-          origin: { x: 0 },
-          colors: ['#3B82F6', '#FB923C', '#10B981', '#F59E0B'],
+          particleCount: 5, angle: 60, spread: 55,
+          origin: { x: 0, y: 0.7 },
+          colors: ['#f59e0b', '#dc2626', '#7c3aed', '#2563eb', '#10b981'],
         });
         confetti({
-          particleCount: 5,
-          angle: 120,
-          spread: 55,
-          origin: { x: 1 },
-          colors: ['#3B82F6', '#FB923C', '#10B981', '#F59E0B'],
+          particleCount: 5, angle: 120, spread: 55,
+          origin: { x: 1, y: 0.7 },
+          colors: ['#f59e0b', '#dc2626', '#7c3aed', '#2563eb', '#10b981'],
         });
-
-        if (Date.now() < end) {
-          requestAnimationFrame(frame);
-        }
+        if (Date.now() < end) requestAnimationFrame(frame);
       };
       frame();
     } else {
-      // Small burst for single insight
       confetti({
-        particleCount: 60,
-        spread: 70,
+        particleCount: 60, spread: 70,
         origin: { y: 0.6 },
-        colors: ['#3B82F6', '#60A5FA', '#93C5FD'],
+        colors: ['#f59e0b', '#fbbf24', '#fcd34d', '#b45309'],
       });
     }
   }, [type]);
@@ -51,9 +40,9 @@ export default function ConfettiOverlay({ type }: ConfettiOverlayProps) {
 
   return (
     <div className="fixed inset-0 pointer-events-none flex items-center justify-center z-40">
-      <div className="bg-white/90 backdrop-blur-sm px-8 py-4 rounded-2xl shadow-lg animate-bounce">
-        <p className={`text-lg font-bold ${type === 'mastery' ? 'text-green-600' : 'text-primary-600'}`}>
-          {message}
+      <div className="bg-white/90 backdrop-blur-sm px-6 py-3 rounded-xl shadow-warm animate-pop border border-amber-200/60">
+        <p className={`text-sm font-extrabold font-display ${type === 'mastery' ? 'text-emerald-600' : 'text-amber-700'}`}>
+          {type === 'mastery' ? '\u2B50' : '\u2728'} {message}
         </p>
       </div>
     </div>

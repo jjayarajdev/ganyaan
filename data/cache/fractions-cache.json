@@ -570,9 +570,9 @@
     "language": "en"
   },
   {
-    "keywords": ["fraction", "cricket", "score", "sports"],
-    "question": "How are fractions used in cricket?",
-    "answer": "A cricket match is measured in overs. Each over has 6 balls. If a bowler bowled 3 balls of an over, what fraction of the over is done? What fraction is left? You see fractions in sports too — can you think of another example?",
+    "keywords": ["fraction", "sports", "game", "playing"],
+    "question": "How are fractions used in sports or games?",
+    "answer": "Think about a game with 4 quarters. If 3 quarters are done, you've played 3/4 of the game — and only 1/4 is left! Can you think of something at home that you could split into 4 equal parts, like a roti or a chocolate bar?",
     "language": "en"
   },
   {

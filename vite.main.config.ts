@@ -6,4 +6,9 @@ export default defineConfig({
       '@shared': '/src/shared',
     },
   },
+  build: {
+    rollupOptions: {
+      external: ['better-sqlite3'],
+    },
+  },
 });

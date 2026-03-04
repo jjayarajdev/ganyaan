@@ -1,13 +1,44 @@
 import type { Language, InsightId } from '../shared/types';
-import { INSIGHT_DEFS } from '../shared/constants';
+import { CHAPTERS, INSIGHT_DEFS } from '../shared/constants';
+import {
+  getPersonality,
+  getCoreRules,
+  getStudentStateHandling,
+  getConversationFlowRules,
+  getSessionPacing,
+  getInsightTrackingBlock,
+  getAdaptiveDifficultyBlock,
+  getMisconceptionContext,
+  getReviewModeBlock,
+  getWorkedExampleBlock,
+  getVisualAidsBlock,
+} from './prompts/common';
+import { getChapterPrompt } from './prompts/index';
 
-export function buildSystemPrompt(language: Language, unlockedInsights: InsightId[]): string {
-  const langInstruction = language === 'hi'
-    ? 'You MUST respond entirely in Hindi (Devanagari script). Use simple Hindi suitable for an 11-12 year old student.'
-    : 'Respond in simple English suitable for an 11-12 year old student.';
+export interface PromptOptions {
+  scaffoldingLevel?: number;
+  misconceptions?: Array<{ misconception_type: string; description: string; occurrences: number }>;
+  requestWorkedExample?: boolean;
+  reviewMode?: boolean;
+  reviewInsightIds?: string[];
+  storylineBlock?: string;
+}
 
-  const lockedInsights = (Object.keys(INSIGHT_DEFS) as InsightId[])
-    .filter(id => !unlockedInsights.includes(id));
+export function buildSystemPrompt(
+  chapterId: string,
+  language: Language,
+  unlockedInsights: InsightId[],
+  studentMessageCount: number,
+  options: PromptOptions = {},
+): string {
+  const chapter = CHAPTERS.find(c => c.id === chapterId);
+  const chapterTitle = chapter
+    ? (language === 'hi' ? chapter.titleHi : chapter.titleEn)
+    : 'Mathematics';
+
+  // Compute locked/unlocked insights scoped to this chapter
+  const chapterInsights = chapter ? chapter.insights : [];
+  const lockedInsights = chapterInsights.filter(id => !unlockedInsights.includes(id));
 
   const insightList = lockedInsights
     .map(id => {
@@ -17,32 +48,59 @@ export function buildSystemPrompt(language: Language, unlockedInsights: InsightI
     .join('\n');
 
   const unlockedList = unlockedInsights.length > 0
-    ? unlockedInsights.map(id => `- ${id} (already unlocked)`).join('\n')
+    ? unlockedInsights
+        .filter(id => chapterInsights.includes(id))
+        .map(id => `- ${id} (already unlocked)`)
+        .join('\n')
     : '(none yet)';
 
-  return `You are a Socratic math tutor for CBSE Class 6 students (age 11-12). The topic is Chapter 7: Fractions.
+  const totalInsights = chapterInsights.length;
+  const unlockedCount = unlockedInsights.filter(id => chapterInsights.includes(id)).length;
 
-## CRITICAL RULES:
-1. NEVER give direct answers. ONLY ask guiding questions that lead the student to discover the answer themselves.
-2. Keep responses to 2-4 sentences maximum. Always end with a question.
-3. Use real-world examples kids relate to: pizza slices, sharing chocolates, dividing fruits equally.
-4. Be warm, encouraging, and patient. Celebrate small wins.
-5. ${langInstruction}
+  // Assemble prompt from modular sections
+  const sections = [
+    `You are a warm, patient, and encouraging Socratic math tutor for CBSE Class 6 students (age 11-12). The topic is Chapter ${chapter?.number || '?'}: ${chapterTitle}.`,
+    getPersonality(),
+    getCoreRules(language),
+    getChapterPrompt(chapterId),
+    getStudentStateHandling(),
+    getConversationFlowRules(),
+    getSessionPacing(studentMessageCount, totalInsights, unlockedCount),
+    getInsightTrackingBlock(insightList, unlockedList),
+  ];
 
-## INSIGHT TRACKING:
-When the student demonstrates genuine understanding of a concept (not just a lucky guess), emit the marker [INSIGHT_UNLOCKED:insight_id] at the END of your response.
+  // v0.3: Adaptive difficulty
+  if (options.scaffoldingLevel) {
+    sections.push(getAdaptiveDifficultyBlock(options.scaffoldingLevel));
+  }
 
-Insights still locked (student hasn't mastered yet):
-${insightList || '(all unlocked!)'}
+  // v0.3: Misconception context
+  if (options.misconceptions && options.misconceptions.length > 0) {
+    sections.push(getMisconceptionContext(options.misconceptions));
+  }
 
-Insights already unlocked:
-${unlockedList}
+  // v0.3: Review mode
+  if (options.reviewMode && options.reviewInsightIds) {
+    sections.push(getReviewModeBlock(options.reviewInsightIds));
+  }
 
-Only emit an INSIGHT_UNLOCKED marker when the student clearly explains or demonstrates understanding — not when they just give a correct number. One marker per response maximum.
+  // v0.3: Worked example
+  if (options.requestWorkedExample) {
+    sections.push(getWorkedExampleBlock());
+  }
 
-## EXAMPLE INTERACTION:
-Student: "What is 1/2 + 1/2?"
-Tutor: "Great question! Think about this — if you eat half a pizza for lunch and half a pizza for dinner, how much pizza did you eat in total? Can you figure it out?"`;
+  // v0.3: Storyline
+  if (options.storylineBlock) {
+    sections.push(options.storylineBlock);
+  }
+
+  // v0.3: Visual aids
+  const visualBlock = getVisualAidsBlock(chapterId);
+  if (visualBlock) {
+    sections.push(visualBlock);
+  }
+
+  return sections.join('\n\n');
 }
 
 export function buildMessages(

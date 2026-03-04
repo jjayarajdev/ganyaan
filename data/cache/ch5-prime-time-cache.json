@@ -1,0 +1,668 @@
+[
+  {
+    "keywords": ["factor", "what", "is"],
+    "question": "What is a factor?",
+    "answer": "Think about 12 chocolates that you want to arrange in equal rows. You could make 3 rows of 4, or 4 rows of 3, or 6 rows of 2. Each of those row numbers is a factor of 12! Can you think of another way to arrange 12 chocolates into equal rows?",
+    "language": "en"
+  },
+  {
+    "keywords": ["factor", "find", "how"],
+    "question": "How do I find all factors of a number?",
+    "answer": "Let's try finding factors of 18. Start with 1 — does 1 divide 18 exactly? Yes! Does 2 divide 18 exactly? Does 3? Keep trying numbers until you reach 18 itself. What happens when you check each number — do you notice they come in pairs?",
+    "language": "en"
+  },
+  {
+    "keywords": ["multiple", "what", "is"],
+    "question": "What is a multiple?",
+    "answer": "Imagine you are skipping on a number line — always jumping 4 steps at a time from 0. You land on 4, 8, 12, 16... Those landing spots are multiples of 4! If you always jump 5 steps, which numbers would you land on?",
+    "language": "en"
+  },
+  {
+    "keywords": ["factor", "multiple", "difference"],
+    "question": "What is the difference between a factor and a multiple?",
+    "answer": "Here is a good way to think about it: factors of 12 are the numbers that divide 12 exactly, while multiples of 12 are the numbers you get when you multiply 12 by 1, 2, 3... So is 6 a factor or a multiple of 12? What about 24?",
+    "language": "en"
+  },
+  {
+    "keywords": ["factor", "number", "itself"],
+    "question": "Is every number a factor of itself?",
+    "answer": "Think about 7. Can you divide 7 chocolates into 7 equal groups? How many chocolates would be in each group? And what about dividing into 1 group — is 1 always a factor too? What does that tell you?",
+    "language": "en"
+  },
+  {
+    "keywords": ["factor", "1"],
+    "question": "Is 1 a factor of every number?",
+    "answer": "Imagine you have 15 mangoes arranged as 1 row of 15. You have divided them into equal rows using the number 1! Does that work for any number of mangoes? Why do you think 1 divides every number exactly?",
+    "language": "en"
+  },
+  {
+    "keywords": ["multiple", "infinite", "how many"],
+    "question": "How many multiples does a number have?",
+    "answer": "List the multiples of 3: 3, 6, 9, 12... Can you ever reach the last multiple? What happens if I keep multiplying 3 by bigger and bigger numbers? Do you think multiples ever stop, or do they go on forever?",
+    "language": "en"
+  },
+  {
+    "keywords": ["common", "factor", "two numbers"],
+    "question": "What is a common factor of two numbers?",
+    "answer": "Factors of 12 are 1, 2, 3, 4, 6, 12. Factors of 18 are 1, 2, 3, 6, 9, 18. Can you spot which factors appear in both lists? Those shared factors are called common factors — what are the common factors of 12 and 18?",
+    "language": "en"
+  },
+  {
+    "keywords": ["prime", "number", "what"],
+    "question": "What is a prime number?",
+    "answer": "Imagine trying to arrange 7 pebbles into equal rows with more than 1 row. Can you do it without leftover pebbles? What if you try 2 rows, 3 rows? A number that can ONLY be arranged as 1 row is very special — what do you think makes 7 so special?",
+    "language": "en"
+  },
+  {
+    "keywords": ["prime", "example", "list"],
+    "question": "Can you give examples of prime numbers?",
+    "answer": "Let's check 11 together. Can 11 be divided exactly by 2? By 3? By 4? Keep going — what do you find? Now try 13. What are the only two numbers that divide both 11 and 13 exactly?",
+    "language": "en"
+  },
+  {
+    "keywords": ["composite", "number", "what"],
+    "question": "What is a composite number?",
+    "answer": "You found that 7 can only be arranged in 1 row. But what about 12 chocolates? You can make 2 rows of 6, or 3 rows of 4! A number like 12 that has more than two factors is called composite. Can you check if 15 is composite?",
+    "language": "en"
+  },
+  {
+    "keywords": ["1", "prime", "composite", "neither"],
+    "question": "Is 1 a prime or composite number?",
+    "answer": "A prime number has exactly two factors: 1 and itself. A composite number has more than two factors. Now think about 1 — what are its factors? How many factors does 1 have? Does it fit the rule for prime, or the rule for composite?",
+    "language": "en"
+  },
+  {
+    "keywords": ["2", "prime", "even"],
+    "question": "Is 2 a prime number even though it is even?",
+    "answer": "What are the factors of 2? Try dividing 2 by every number from 1 to 2. How many factors does it have? Now think — can a prime number be even? What makes 2 very unique among all prime numbers?",
+    "language": "en"
+  },
+  {
+    "keywords": ["prime", "test", "check", "how"],
+    "question": "How do I check if a number is prime?",
+    "answer": "To check if 17 is prime, you need to test whether any number other than 1 and 17 divides it exactly. Try 2, 3, 4, 5, 6, 7... You only need to check up to a certain point. When do you think you can stop checking?",
+    "language": "en"
+  },
+  {
+    "keywords": ["coprime", "co-prime", "what"],
+    "question": "What are co-prime numbers?",
+    "answer": "Find the common factors of 8 and 15. Factors of 8 are 1, 2, 4, 8. Factors of 15 are 1, 3, 5, 15. What is the only factor they share? When two numbers share only 1 as a common factor, they have a special name. What do you think makes them special?",
+    "language": "en"
+  },
+  {
+    "keywords": ["coprime", "prime", "both"],
+    "question": "Do co-prime numbers have to be prime themselves?",
+    "answer": "Look at 8 and 9. Is 8 a prime number? Is 9 a prime number? Now find their common factors. What is the only common factor of 8 and 9? Does a number need to be prime to form a co-prime pair with another number?",
+    "language": "en"
+  },
+  {
+    "keywords": ["coprime", "example"],
+    "question": "Can you give examples of co-prime numbers?",
+    "answer": "Let's check if 14 and 25 are co-prime. What are the factors of 14? What are the factors of 25? Do they share any factor other than 1? How about 9 and 16 — what common factors do they have?",
+    "language": "en"
+  },
+  {
+    "keywords": ["prime", "factorisation", "what"],
+    "question": "What is prime factorisation?",
+    "answer": "Every composite number can be broken down into prime number building blocks. Think of it like making a number from Lego bricks — but all bricks must be prime! For example, 12 can be built as 2 × 2 × 3. Can you think of why we use only prime numbers as the bricks?",
+    "language": "en"
+  },
+  {
+    "keywords": ["factor", "tree", "what", "how"],
+    "question": "What is a factor tree?",
+    "answer": "A factor tree is a diagram that helps you break a number into its prime factors step by step. Start with 24 at the top. Can you split 24 into two factors? Then split each of those again, and keep going until every branch ends in a prime number. What would the first split of 24 look like?",
+    "language": "en"
+  },
+  {
+    "keywords": ["factor", "tree", "draw", "make"],
+    "question": "How do I draw a factor tree?",
+    "answer": "Let's try 36. Write 36 at the top. Can you find two numbers that multiply to give 36? Write them as branches below. Now check — is each branch number prime? If not, keep splitting. What two numbers would you start with for 36?",
+    "language": "en"
+  },
+  {
+    "keywords": ["prime", "factorisation", "unique", "same"],
+    "question": "Does a number always have the same prime factorisation?",
+    "answer": "Try making a factor tree for 12 starting with 2 × 6, and then try again starting with 3 × 4. Write out the prime factors at the end of each tree. Do you get the same prime factors both times, even though you started differently?",
+    "language": "en"
+  },
+  {
+    "keywords": ["divisibility", "rule", "what"],
+    "question": "What are divisibility rules?",
+    "answer": "Imagine checking if 4,578 is divisible by 9. Would you rather divide the whole number, or use a clever shortcut? Divisibility rules are little tricks that let you check without actually dividing. What kind of shortcut do you think might work for 9?",
+    "language": "en"
+  },
+  {
+    "keywords": ["divisibility", "2", "even"],
+    "question": "What is the divisibility rule for 2?",
+    "answer": "Look at these numbers: 14, 27, 38, 55, 62. Which ones do you think are divisible by 2? What do you notice about their last digits? Can you spot the pattern that tells you a number is even?",
+    "language": "en"
+  },
+  {
+    "keywords": ["divisibility", "5"],
+    "question": "What is the divisibility rule for 5?",
+    "answer": "Check which of these are divisible by 5: 25, 33, 40, 47, 65, 72. What do you notice about the last digit of the ones that work? What do the last digits of 25, 40, and 65 have in common?",
+    "language": "en"
+  },
+  {
+    "keywords": ["divisibility", "10"],
+    "question": "What is the divisibility rule for 10?",
+    "answer": "Look at multiples of 10: 10, 20, 30, 40, 50... What is special about the last digit of every single one? Can you explain why any number ending in 0 must be divisible by 10?",
+    "language": "en"
+  },
+  {
+    "keywords": ["divisibility", "3"],
+    "question": "What is the divisibility rule for 3?",
+    "answer": "Let's investigate 243. Its digits are 2, 4, and 3. Add them: 2 + 4 + 3 = 9. Is 9 divisible by 3? Now try 451: digits add to 4 + 5 + 1 = 10. Is 10 divisible by 3? What pattern do you notice about when a number is divisible by 3?",
+    "language": "en"
+  },
+  {
+    "keywords": ["divisibility", "9"],
+    "question": "What is the divisibility rule for 9?",
+    "answer": "Try this with 738: add the digits — 7 + 3 + 8 = 18. Is 18 divisible by 9? Now try 456: add 4 + 5 + 6 = 15. Is 15 divisible by 9? How is the rule for 9 similar to — and different from — the rule for 3?",
+    "language": "en"
+  },
+  {
+    "keywords": ["divisibility", "check", "apply"],
+    "question": "How do I use divisibility rules to check a big number?",
+    "answer": "Let's check 2,340. Is it divisible by 2? Look at the last digit. Is it divisible by 5? Look at the last digit again. Is it divisible by 3? Add all digits: 2 + 3 + 4 + 0. What do you find? How many divisibility tests can 2,340 pass?",
+    "language": "en"
+  },
+  {
+    "keywords": ["factor", "pairs"],
+    "question": "What are factor pairs?",
+    "answer": "If you arrange 20 stickers in equal rows, you could do 1 row of 20, or 2 rows of 10, or 4 rows of 5. Notice how the row number and columns come in pairs! Each pair multiplies to give 20. Can you find all factor pairs of 20?",
+    "language": "en"
+  },
+  {
+    "keywords": ["prime", "between", "1", "20", "100"],
+    "question": "How many prime numbers are there between 1 and 20?",
+    "answer": "Let's check each number from 2 to 20. Start with 2 — prime! Then 3 — prime! But 4 has factors 1, 2, and 4 — so it's not prime. Work through each number and keep a count. How many numbers between 1 and 20 have exactly two factors?",
+    "language": "en"
+  },
+  {
+    "keywords": ["sieve", "eratosthenes"],
+    "question": "What is the Sieve of Eratosthenes?",
+    "answer": "Imagine writing all numbers from 1 to 50 and crossing out multiples of 2 (except 2 itself), then multiples of 3 (except 3), and so on. What numbers would be left uncrossed? Why do you think this method is called a 'sieve' — what does a kitchen sieve do?",
+    "language": "en"
+  },
+  {
+    "keywords": ["common", "multiple", "two numbers"],
+    "question": "What is a common multiple?",
+    "answer": "List some multiples of 4: 4, 8, 12, 16, 20, 24... Now list multiples of 6: 6, 12, 18, 24, 30... Which numbers appear in both lists? Those are common multiples! What is the smallest number that both 4 and 6 share?",
+    "language": "en"
+  },
+  {
+    "keywords": ["prime", "factorisation", "example", "48"],
+    "question": "Can you show prime factorisation of 48?",
+    "answer": "Let's build the factor tree for 48 together. Can you split 48 into two factors? How about 6 × 8 — does that work? Now split 6 and 8 further. Keep going until every number at the bottom of the tree is prime. What prime numbers do you end up with?",
+    "language": "en"
+  },
+  {
+    "keywords": ["divisibility", "rule", "why", "works"],
+    "question": "Why does the divisibility rule for 3 work?",
+    "answer": "Did you know that 10 = 9 + 1, and 100 = 99 + 1? The number 9 is divisible by 3, and 99 is divisible by 3. So when you add digits, you are essentially finding what remains after removing those multiples of 9. Does that give you a clue about why adding digits works for the rule of 3?",
+    "language": "en"
+  },
+  {
+    "keywords": ["factor", "product", "relationship"],
+    "question": "How are factors and products related?",
+    "answer": "If 3 × 7 = 21, then 3 and 7 are both factors of 21. Can you flip this? If I tell you that 5 is a factor of 30, what multiplication fact does that suggest? How many multiplication facts can you write that show factors of 30?",
+    "language": "en"
+  },
+  {
+    "keywords": ["prime", "number", "largest", "infinite"],
+    "question": "Is there a largest prime number?",
+    "answer": "Imagine you claim to have found the largest prime, call it P. Now think about the number made by multiplying all primes from 2 up to P, then adding 1. Would any of the known primes divide this new number? What does that suggest about whether primes ever run out?",
+    "language": "en"
+  },
+  {
+    "keywords": ["गुणनखंड", "क्या", "है"],
+    "question": "गुणनखंड क्या होते हैं?",
+    "answer": "सोचो 12 चॉकलेट को बराबर पंक्तियों में सजाना है। तुम 3 पंक्तियाँ 4-4 की, या 4 पंक्तियाँ 3-3 की बना सकते हो। वे पंक्ति संख्याएँ 12 के गुणनखंड हैं! क्या तुम 12 चॉकलेट को सजाने का कोई और तरीका सोच सकते हो?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["गुणनखंड", "कैसे", "ढूंढें"],
+    "question": "किसी संख्या के सभी गुणनखंड कैसे ढूंढते हैं?",
+    "answer": "18 के गुणनखंड ढूंढने की कोशिश करो। 1 से शुरू करो — क्या 1, 18 को पूरा-पूरा बाँटता है? क्या 2 बाँटता है? क्या 3? हर संख्या जाँचते जाओ। क्या तुम नोटिस करते हो कि गुणनखंड जोड़ों में आते हैं?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["गुणज", "क्या", "है"],
+    "question": "गुणज क्या होते हैं?",
+    "answer": "कल्पना करो कि तुम एक संख्या रेखा पर हमेशा 4 कदम आगे कूद रहे हो। 0 से शुरू करो — 4, 8, 12, 16... जहाँ-जहाँ तुम उतरते हो वे 4 के गुणज हैं! अगर तुम 5-5 कदम कूदो, तो किन संख्याओं पर उतरोगे?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["गुणनखंड", "गुणज", "अंतर", "फर्क"],
+    "question": "गुणनखंड और गुणज में क्या अंतर है?",
+    "answer": "12 के गुणनखंड वे संख्याएँ हैं जो 12 को पूरा-पूरा बाँटती हैं, जैसे 1, 2, 3, 4, 6, 12। लेकिन 12 के गुणज वे संख्याएँ हैं जो 12 को 1, 2, 3... से गुणा करने पर मिलती हैं, जैसे 12, 24, 36। तो क्या 6, 12 का गुणनखंड है या गुणज? और 24?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["अभाज्य", "संख्या", "क्या"],
+    "question": "अभाज्य संख्या क्या होती है?",
+    "answer": "सोचो 7 कंकड़ों को बराबर पंक्तियों में रखना है — एक से ज़्यादा पंक्ति में। क्या यह बिना कंकड़ बचाए हो सकता है? 2 पंक्तियाँ, 3 पंक्तियाँ — जाँचो। जो संख्या सिर्फ 1 पंक्ति में ही सज सकती है, उसे क्या कहते हैं?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["भाज्य", "संख्या", "क्या"],
+    "question": "भाज्य संख्या क्या होती है?",
+    "answer": "12 चॉकलेट को तुम कई तरह से बराबर बाँट सकते हो — 2, 3, 4, या 6 लोगों में। तो 12 के दो से ज़्यादा गुणनखंड हैं! ऐसी संख्या को भाज्य कहते हैं। क्या 15 भाज्य संख्या है? इसके कितने गुणनखंड ढूंढ सकते हो?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["1", "अभाज्य", "भाज्य", "न तो"],
+    "question": "क्या 1 अभाज्य है या भाज्य?",
+    "answer": "अभाज्य संख्या के ठीक दो गुणनखंड होते हैं: 1 और खुद वह संख्या। भाज्य संख्या के दो से ज़्यादा गुणनखंड होते हैं। अब 1 के बारे में सोचो — इसके कितने गुणनखंड हैं? क्या यह अभाज्य की परिभाषा में फिट होती है या भाज्य की?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["2", "अभाज्य", "सम", "even"],
+    "question": "2 अभाज्य संख्या है, हालाँकि यह सम है?",
+    "answer": "2 के गुणनखंड क्या हैं? 1 और 2 को जाँचो। कितने गुणनखंड हैं? अब सोचो — क्या एक सम संख्या अभाज्य हो सकती है? सभी अभाज्य संख्याओं में 2 किस तरह अनोखी है?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["सहअभाज्य", "co-prime", "क्या"],
+    "question": "सहअभाज्य संख्याएँ क्या होती हैं?",
+    "answer": "8 के गुणनखंड हैं: 1, 2, 4, 8। 15 के गुणनखंड हैं: 1, 3, 5, 15। कौन सा गुणनखंड दोनों में समान है? जब दो संख्याओं का सिर्फ 1 ही उभयनिष्ठ गुणनखंड हो, तो उन्हें सहअभाज्य कहते हैं। क्या 8 और 15 सहअभाज्य हैं?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["सहअभाज्य", "उदाहरण"],
+    "question": "सहअभाज्य संख्याओं के उदाहरण दो।",
+    "answer": "14 और 25 को जाँचते हैं। 14 के गुणनखंड: 1, 2, 7, 14। 25 के गुणनखंड: 1, 5, 25। क्या इनका 1 के अलावा कोई उभयनिष्ठ गुणनखंड है? अब 9 और 16 को जाँचो — क्या ये सहअभाज्य हैं?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["अभाज्य", "गुणनखंडन", "क्या", "कैसे"],
+    "question": "अभाज्य गुणनखंडन क्या होता है?",
+    "answer": "हर भाज्य संख्या को अभाज्य संख्याओं के गुणनफल के रूप में लिखा जा सकता है। जैसे 12 = 2 × 2 × 3। इसे लेगो ब्लॉक की तरह समझो — सभी ब्लॉक अभाज्य होने चाहिए! क्या तुम सोच सकते हो कि हम सिर्फ अभाज्य संख्याओं का ही उपयोग क्यों करते हैं?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["गुणनखंड", "वृक्ष", "tree", "कैसे"],
+    "question": "गुणनखंड वृक्ष कैसे बनाते हैं?",
+    "answer": "24 के लिए गुणनखंड वृक्ष बनाओ। 24 को शीर्ष पर लिखो। इसे दो गुणनखंडों में तोड़ो — जैसे 4 × 6। फिर 4 और 6 को भी तोड़ो। जब तक हर संख्या अभाज्य न हो जाए, तोड़ते रहो। तुम 24 को पहले किन दो संख्याओं में तोड़ोगे?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["विभाज्यता", "नियम", "क्या"],
+    "question": "विभाज्यता के नियम क्या होते हैं?",
+    "answer": "क्या तुम बिना भाग किए बता सकते हो कि 4,578 किस-किस से विभाज्य है? विभाज्यता नियम ऐसी चालाक तरकीबें हैं जो बिना पूरा भाग किए बताती हैं कि कोई संख्या विभाज्य है या नहीं। तुम्हें क्या लगता है 2 के लिए कौन सी तरकीब काम कर सकती है?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["विभाज्यता", "2", "नियम"],
+    "question": "2 की विभाज्यता का नियम क्या है?",
+    "answer": "इन संख्याओं को देखो: 14, 27, 38, 55, 62। कौन सी संख्याएँ 2 से विभाज्य हैं? उनके अंतिम अंक क्या हैं? क्या तुम इकाई के अंक में कोई पैटर्न देख सकते हो?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["विभाज्यता", "3", "नियम"],
+    "question": "3 की विभाज्यता का नियम क्या है?",
+    "answer": "243 के अंक हैं 2, 4, 3 — इन्हें जोड़ो: 2 + 4 + 3 = 9। क्या 9, 3 से विभाज्य है? अब 451 के अंक जोड़ो: 4 + 5 + 1 = 10। क्या 10, 3 से विभाज्य है? क्या पैटर्न दिख रहा है?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["विभाज्यता", "5", "नियम"],
+    "question": "5 की विभाज्यता का नियम क्या है?",
+    "answer": "इन संख्याओं की जाँच करो जो 5 से विभाज्य हैं: 25, 40, 65, 100। उनके अंतिम अंक क्या हैं? अब 33, 47, 72 देखो — इनके अंतिम अंक क्या हैं? तुम्हें क्या अंतर नज़र आया?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["विभाज्यता", "9", "नियम"],
+    "question": "9 की विभाज्यता का नियम क्या है?",
+    "answer": "738 के अंक जोड़ो: 7 + 3 + 8 = 18। क्या 18, 9 से विभाज्य है? अब 456 के अंक जोड़ो: 4 + 5 + 6 = 15। क्या 15, 9 से विभाज्य है? 9 का नियम 3 के नियम से कैसे मिलता-जुलता और कैसे अलग है?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["विभाज्यता", "10", "नियम"],
+    "question": "10 की विभाज्यता का नियम क्या है?",
+    "answer": "10 के गुणज देखो: 10, 20, 30, 40, 50... इन सब के इकाई के अंक क्या हैं? क्या तुम बता सकते हो कि 0 पर खत्म होने वाली कोई भी संख्या 10 से क्यों विभाज्य होती है?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["अभाज्य", "1", "20", "बीच"],
+    "question": "1 से 20 के बीच कितनी अभाज्य संख्याएँ हैं?",
+    "answer": "2 से 20 तक हर संख्या जाँचो। 2 — अभाज्य! 3 — अभाज्य! 4 के गुणनखंड हैं 1, 2, 4 — तो यह अभाज्य नहीं। एक-एक करके जाँचो और गिनो। 1 से 20 के बीच कितनी संख्याओं के ठीक दो गुणनखंड हैं?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["उभयनिष्ठ", "गुणनखंड"],
+    "question": "उभयनिष्ठ गुणनखंड क्या होते हैं?",
+    "answer": "12 के गुणनखंड: 1, 2, 3, 4, 6, 12। 18 के गुणनखंड: 1, 2, 3, 6, 9, 18। कौन से गुणनखंड दोनों सूचियों में हैं? वे साझा गुणनखंड उभयनिष्ठ गुणनखंड कहलाते हैं। 12 और 18 के उभयनिष्ठ गुणनखंड कौन-कौन से हैं?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["गुणनखंड", "जोड़े", "pairs"],
+    "question": "गुणनखंड जोड़े क्या होते हैं?",
+    "answer": "20 स्टिकर को बराबर पंक्तियों में लगाओ — 1 पंक्ति में 20, या 2 पंक्तियों में 10, या 4 पंक्तियों में 5। हर बार पंक्ति संख्या और स्तम्भ संख्या एक जोड़ा बनाती है जिसका गुणनफल 20 है। 20 के सभी गुणनखंड जोड़े ढूंढ सकते हो?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["prime", "composite", "arrange", "rows"],
+    "question": "How does arranging objects in rows help understand prime and composite numbers?",
+    "answer": "Take 13 beads. Try arranging them in 2 equal rows, then 3, then 4... Do any arrangements work without leftover beads? Now try 15 beads — which row arrangements work? What does this tell you about which number is prime and which is composite?",
+    "language": "en"
+  },
+  {
+    "keywords": ["factor", "divisor", "same"],
+    "question": "Are factors and divisors the same thing?",
+    "answer": "When we say 4 divides 20 exactly, we can also say 4 is a divisor of 20. And we can say 4 is a factor of 20. Try this: 6 divides 30 exactly — can you say both 'factor' and 'divisor' for 6? Do you think they mean the same thing?",
+    "language": "en"
+  },
+  {
+    "keywords": ["prime", "factorisation", "60"],
+    "question": "What is the prime factorisation of 60?",
+    "answer": "Let's build a factor tree for 60. Can you split 60 into two factors? Maybe 6 × 10 works — now split 6 and 10 further. Keep going until all branches end in prime numbers. What prime numbers are left at the bottom of your tree?",
+    "language": "en"
+  },
+  {
+    "keywords": ["divisibility", "multiple", "rules", "both 2 and 3"],
+    "question": "If a number is divisible by both 2 and 3, is it divisible by 6?",
+    "answer": "Take 18. Is it divisible by 2? Check the last digit. Is it divisible by 3? Add the digits. Now divide 18 by 6 — does it divide exactly? Try this with 24 and 30 as well. What pattern do you notice when a number passes both the 2 and 3 tests?",
+    "language": "en"
+  },
+  {
+    "keywords": ["prime", "twin", "consecutive"],
+    "question": "What are twin primes?",
+    "answer": "Look at the pairs (3,5), (5,7), (11,13), (17,19). Can you see what's special about each pair? Both numbers in each pair are prime, and they differ by exactly 2. Can you find the next pair of twin primes after (17,19)?",
+    "language": "en"
+  },
+  {
+    "keywords": ["factor", "greatest", "hcf", "gcf"],
+    "question": "What is the greatest common factor?",
+    "answer": "You found that common factors of 12 and 18 are 1, 2, 3, and 6. Among these, which is the greatest? The greatest common factor (GCF) is the largest factor that divides both numbers exactly. Can you find the GCF of 24 and 36 using their factor lists?",
+    "language": "en"
+  },
+  {
+    "keywords": ["factor", "chocolate", "sharing", "divide evenly"],
+    "question": "I have 24 chocolates to share equally in groups. What group sizes work?",
+    "answer": "You need group sizes that divide 24 without any chocolates left over. Try 2 people — does it work? Try 3, 4, 5, 6, 7, 8... Which ones work and which ones leave chocolates leftover? The ones that work are exactly the factors of 24!",
+    "language": "en"
+  },
+  {
+    "keywords": ["prime", "factorisation", "why", "useful"],
+    "question": "Why is prime factorisation useful?",
+    "answer": "Think about finding all factors of 72. You could try every number up to 72. OR you could find the prime factorisation first: 72 = 2 × 2 × 2 × 3 × 3. From these prime building blocks, you can work out every possible factor. Which method sounds faster to you?",
+    "language": "en"
+  },
+  {
+    "keywords": ["divisibility", "rule", "9", "why", "digit sum"],
+    "question": "Why does the digit sum rule work for 9?",
+    "answer": "Think about the number 10. It equals 9 + 1. So any 'tens' digit contributes 9 times something (divisible by 9) plus the digit itself. Same with 100 = 99 + 1. So when you add all digits, you're left with the part that isn't a multiple of 9. Does that help explain the pattern?",
+    "language": "en"
+  },
+  {
+    "keywords": ["prime", "composite", "1", "summary", "classify"],
+    "question": "How do I classify any number as prime, composite, or neither?",
+    "answer": "Here is a step-by-step way to think about it: First, is the number 1? Then it's neither prime nor composite — a special case! Does it have exactly two factors (1 and itself)? Then it's prime. Does it have more than two factors? Then it's composite. How would you classify 17? How about 21?",
+    "language": "en"
+  },
+  {
+    "keywords": ["factor", "tree", "different", "start", "same result"],
+    "question": "Does it matter which factors I start with in a factor tree?",
+    "answer": "Try building a factor tree for 30 starting with 2 × 15, then try again starting with 3 × 10, and once more with 5 × 6. Write out the prime factors at the bottom of each tree. Do you get the same set of prime factors every time, regardless of how you started?",
+    "language": "en"
+  },
+  {
+    "keywords": ["ganyaan", "divisibility", "large number", "test"],
+    "question": "How do I quickly test a large number like 2,345 for divisibility?",
+    "answer": "Let's work through 2,345 together. For divisibility by 5, just look at the last digit — what is it? For divisibility by 3, add all digits: 2 + 3 + 4 + 5 — what do you get? Is that sum divisible by 3? For divisibility by 2, what is the last digit? How many tests can 2,345 pass?",
+    "language": "en"
+  },
+  {
+    "keywords": ["prime", "number", "odd", "all"],
+    "question": "Are all odd numbers prime?",
+    "answer": "Check 9 — it's odd. But is it prime? What are the factors of 9? Now check 15 — odd, but is it prime? What are the factors of 15? Can you find an odd number that is NOT prime? What does that tell you about the claim 'all odd numbers are prime'?",
+    "language": "en"
+  },
+  {
+    "keywords": ["coprime", "consecutive", "numbers"],
+    "question": "Are consecutive numbers always co-prime?",
+    "answer": "Take any two consecutive numbers, like 7 and 8. What are the factors of 7? What are the factors of 8? Is there any common factor other than 1? Now try 15 and 16. What do you notice? Can you explain why consecutive numbers always seem to be co-prime?",
+    "language": "en"
+  },
+  {
+    "keywords": ["prime", "factorisation", "हिंदी", "100"],
+    "question": "100 का अभाज्य गुणनखंडन क्या है?",
+    "answer": "100 के लिए गुणनखंड वृक्ष बनाओ। क्या 100 को 10 × 10 में तोड़ सकते हो? अब 10 को तोड़ो — 10 = 2 × 5। तो 100 = 2 × 5 × 2 × 5। ये सभी अभाज्य हैं! क्या तुम 100 के अभाज्य गुणनखंड घात के रूप में लिख सकते हो?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["अभाज्य", "संख्या", "जाँच", "कैसे"],
+    "question": "किसी संख्या की अभाज्यता कैसे जाँचें?",
+    "answer": "मान लो 23 की जाँच करनी है। 2 से 23 को विभाजित करो — क्या पूरा-पूरा जाता है? 3 से? 4 से? 5 से? एक निश्चित सीमा तक जाँचने के बाद रुक सकते हो। तुम्हें क्या लगता है कहाँ तक जाँचना काफी है और क्यों?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["विभाज्यता", "बड़ी", "संख्या", "जाँच"],
+    "question": "3,456 की विभाज्यता कैसे जाँचें?",
+    "answer": "3,456 के अंकों को जोड़ो: 3 + 4 + 5 + 6 = ? क्या यह योग 3 से विभाज्य है? क्या यह 9 से विभाज्य है? अंतिम अंक देखो — क्या यह 2 से विभाज्य है? 3,456 कितने विभाज्यता नियमों को पास करती है?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["सह", "अभाज्य", "क्रमिक", "consecutive"],
+    "question": "क्या क्रमिक संख्याएँ हमेशा सहअभाज्य होती हैं?",
+    "answer": "8 और 9 को देखो। 8 के गुणनखंड: 1, 2, 4, 8। 9 के गुणनखंड: 1, 3, 9। इनका उभयनिष्ठ गुणनखंड क्या है? अब 14 और 15 को जाँचो। क्या तुम्हें कोई पैटर्न दिखता है?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["अभाज्य", "भाज्य", "सारांश", "कैसे पहचानें"],
+    "question": "किसी संख्या को अभाज्य, भाज्य, या न तो में कैसे पहचानें?",
+    "answer": "पहले पूछो: क्या संख्या 1 है? तो वह न तो अभाज्य है, न भाज्य — एक विशेष मामला! क्या उसके ठीक दो गुणनखंड हैं (1 और खुद)? तो अभाज्य! क्या दो से ज़्यादा गुणनखंड हैं? तो भाज्य! 17 और 21 को इस तरह वर्गीकृत करो।",
+    "language": "hi"
+  },
+  {
+    "keywords": ["गुणनखंड", "वृक्ष", "अलग", "शुरुआत", "same"],
+    "question": "क्या गुणनखंड वृक्ष में अलग-अलग शुरुआत से एक ही उत्तर मिलता है?",
+    "answer": "30 का गुणनखंड वृक्ष पहले 2 × 15 से शुरू करो, फिर 3 × 10 से, फिर 5 × 6 से। हर बार वृक्ष की पत्तियों (अंतिम संख्याएँ) क्या हैं? क्या शुरुआत बदलने पर अभाज्य गुणनखंड बदलते हैं?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["गुणनखंड", "सबसे बड़ा", "उभयनिष्ठ"],
+    "question": "महत्तम उभयनिष्ठ गुणनखंड क्या होता है?",
+    "answer": "12 और 18 के उभयनिष्ठ गुणनखंड हैं: 1, 2, 3, 6। इनमें सबसे बड़ा कौन सा है? वही महत्तम उभयनिष्ठ गुणनखंड (म.उ.ग.) है। अब 24 और 36 के सभी उभयनिष्ठ गुणनखंड ढूंढो और उनमें सबसे बड़ा बताओ।",
+    "language": "hi"
+  },
+  {
+    "keywords": ["अभाज्य", "गुणनखंडन", "क्यों", "उपयोगी"],
+    "question": "अभाज्य गुणनखंडन उपयोगी क्यों है?",
+    "answer": "72 के सभी गुणनखंड ढूंढने के दो तरीके हैं: हर संख्या एक-एक करके जाँचो, या पहले अभाज्य गुणनखंडन करो: 72 = 2 × 2 × 2 × 3 × 3। इन अभाज्य 'ईंटों' से सभी गुणनखंड बना सकते हो। कौन सा तरीका तेज़ लगता है?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["विषम", "अभाज्य", "सभी", "odd prime"],
+    "question": "क्या सभी विषम संख्याएँ अभाज्य होती हैं?",
+    "answer": "9 को देखो — यह विषम है। लेकिन क्या यह अभाज्य है? 9 के गुणनखंड क्या हैं? अब 15 देखो — विषम, पर क्या अभाज्य? ऐसी विषम संख्या ढूंढो जो अभाज्य न हो। तो क्या कहना सही है कि 'सभी विषम संख्याएँ अभाज्य होती हैं'?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["chocolate", "arrange", "rows", "factor", "activity"],
+    "question": "I have 36 chocolates. In how many ways can I arrange them in equal rows?",
+    "answer": "Let's find out! Can you make 2 equal rows? How many in each row? What about 3 rows? 4 rows? Try every number from 1 to 36. The arrangements that work (without leftover chocolates) show you all the factors of 36. How many different arrangements can you find?",
+    "language": "en"
+  },
+  {
+    "keywords": ["divisibility", "both 3 and 9"],
+    "question": "If a number is divisible by 9, is it also divisible by 3?",
+    "answer": "Take 81. The digit sum is 8 + 1 = 9. Is 9 divisible by 9? Yes! Is 9 divisible by 3? Yes! So 81 passes both tests. Try 45 and 63. Can you figure out whether every number that passes the 9 test must also pass the 3 test? Why might that be?",
+    "language": "en"
+  },
+  {
+    "keywords": ["factor", "number", "less than"],
+    "question": "Can a factor of a number be larger than the number itself?",
+    "answer": "Let's think about this carefully. If F is a factor of N, that means N ÷ F gives a whole number answer. If F were larger than N, what would N ÷ F give you? Would it be a whole number? What does that tell you about the maximum size of any factor?",
+    "language": "en"
+  },
+  {
+    "keywords": ["prime", "factorisation", "45"],
+    "question": "What is the prime factorisation of 45?",
+    "answer": "Start your factor tree for 45. Can you split it? 5 × 9 might be a good start — is 5 prime? What about 9? Keep splitting non-prime numbers. What prime numbers are at the bottom of the tree when you're done?",
+    "language": "en"
+  },
+  {
+    "keywords": ["divisibility", "last digit", "why"],
+    "question": "Why do the divisibility rules for 2, 5, and 10 only look at the last digit?",
+    "answer": "Think about the number 347. You can write it as 340 + 7. Now, 340 = 34 × 10. Since 10 is divisible by 2, 5, and 10, the only part that matters for divisibility is 7 — the last digit! Can you explain why the hundreds and thousands digits don't affect divisibility by 2 or 5?",
+    "language": "en"
+  },
+  {
+    "keywords": ["coprime", "prime factors", "no common"],
+    "question": "How does prime factorisation help find co-prime pairs?",
+    "answer": "Find the prime factorisation of 8 and 15. Prime factors of 8: 2 × 2 × 2. Prime factors of 15: 3 × 5. Do they share any prime factors? If two numbers share no prime factors at all, what do you think their greatest common factor will be?",
+    "language": "en"
+  },
+  {
+    "keywords": ["गुणज", "अनंत", "कितने"],
+    "question": "क्या किसी संख्या के गुणज कभी खत्म होते हैं?",
+    "answer": "3 के गुणज लिखो: 3, 6, 9, 12, 15... क्या तुम आखिरी गुणज तक पहुँच सकते हो? अगर मैं तुम्हें 3 का सबसे बड़ा गुणज बताऊं, तो क्या उसमें 3 और जोड़कर उससे भी बड़ा गुणज नहीं मिलेगा? तो गुणज कितने होते हैं?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["विभाज्यता", "3", "9", "दोनों"],
+    "question": "अगर कोई संख्या 9 से विभाज्य है, तो क्या वह 3 से भी विभाज्य होगी?",
+    "answer": "81 के अंकों का योग: 8 + 1 = 9। क्या 9, 9 से विभाज्य है? हाँ! क्या 9, 3 से विभाज्य है? हाँ! अब 45 और 63 को जाँचो। क्या जो संख्याएँ 9 के नियम को पास करती हैं, वे हमेशा 3 के नियम को भी पास करती हैं? ऐसा क्यों होता है?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["अभाज्य", "गुणनखंडन", "45"],
+    "question": "45 का अभाज्य गुणनखंडन क्या है?",
+    "answer": "45 के लिए गुणनखंड वृक्ष बनाओ। 5 × 9 से शुरू करो — क्या 5 अभाज्य है? क्या 9 अभाज्य है? 9 को आगे तोड़ो। जब सभी शाखाएँ अभाज्य संख्याओं पर खत्म हो जाएँ, तो तुम्हारे पास कौन-कौन से अभाज्य गुणनखंड हैं?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["गुणनखंड", "खुद", "से", "बड़ा"],
+    "question": "क्या कोई गुणनखंड उस संख्या से बड़ा हो सकता है?",
+    "answer": "सोचो, अगर F, N का गुणनखंड है, तो N ÷ F पूर्ण संख्या होनी चाहिए। अगर F, N से बड़ा हो, तो N ÷ F का मान क्या होगा? क्या वह पूर्ण संख्या होगी? तो किसी संख्या का सबसे बड़ा गुणनखंड कितना बड़ा हो सकता है?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["अभाज्य", "गुणनखंडन", "सहअभाज्य"],
+    "question": "अभाज्य गुणनखंडन से सहअभाज्य जोड़े कैसे पहचानें?",
+    "answer": "8 का अभाज्य गुणनखंडन: 2 × 2 × 2। 15 का अभाज्य गुणनखंडन: 3 × 5। इन दोनों में कोई अभाज्य गुणनखंड समान है? अगर दो संख्याओं में कोई भी अभाज्य गुणनखंड साझा न हो, तो उनका महत्तम उभयनिष्ठ गुणनखंड क्या होगा?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["prime", "factorisation", "product", "write"],
+    "question": "How do I write prime factorisation using powers?",
+    "answer": "The prime factorisation of 36 is 2 × 2 × 3 × 3. When you multiply the same prime number multiple times, you can write it as a power — 2 × 2 = 2². So 36 = 2² × 3². Can you write the prime factorisation of 72 = 2 × 2 × 2 × 3 × 3 using powers?",
+    "language": "en"
+  },
+  {
+    "keywords": ["अभाज्य", "गुणनखंडन", "घात", "power"],
+    "question": "अभाज्य गुणनखंडन को घात के रूप में कैसे लिखें?",
+    "answer": "36 = 2 × 2 × 3 × 3। जब एक ही अभाज्य संख्या बार-बार आए, तो उसे घात के रूप में लिख सकते हैं: 2 × 2 = 2²। तो 36 = 2² × 3²। क्या तुम 72 = 2 × 2 × 2 × 3 × 3 को घात के रूप में लिख सकते हो?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["divisibility", "guess", "without dividing"],
+    "question": "Can I tell if 1,234 is divisible by 3 without actually dividing?",
+    "answer": "Yes! Add the digits of 1,234: 1 + 2 + 3 + 4. What do you get? Is that sum divisible by 3? If yes, then 1,234 is divisible by 3. If no, it isn't. Now check if 1,234 is divisible by 9 using the same digit sum. What do you find?",
+    "language": "en"
+  },
+  {
+    "keywords": ["विभाज्यता", "बिना भाग किए", "1234"],
+    "question": "क्या बिना भाग किए बता सकते हैं कि 1,234, 3 से विभाज्य है?",
+    "answer": "1,234 के अंकों को जोड़ो: 1 + 2 + 3 + 4 = ? वह योग 3 से विभाज्य है? अगर हाँ, तो 1,234 भी 3 से विभाज्य है। अगर नहीं, तो नहीं। अब वही योग से जाँचो कि 1,234, 9 से विभाज्य है या नहीं।",
+    "language": "hi"
+  },
+  {
+    "keywords": ["prime", "number", "infinite", "proof"],
+    "question": "Are there infinitely many prime numbers?",
+    "answer": "Here is something interesting to think about: suppose you list all primes up to some number. What if you multiply all of them together and add 1? Could any of your listed primes divide this new number exactly? If not, where does a prime factor of this new number come from? What does that suggest?",
+    "language": "en"
+  },
+  {
+    "keywords": ["अभाज्य", "संख्याएँ", "अनंत", "हैं क्या"],
+    "question": "क्या अभाज्य संख्याएँ अनंत होती हैं?",
+    "answer": "मान लो तुमने सभी अभाज्य संख्याओं की एक सूची बनाई। अब उन सभी को गुणा करके 1 जोड़ो। क्या तुम्हारी सूची की कोई अभाज्य संख्या इस नई संख्या को पूरा-पूरा बाँट सकती है? अगर नहीं, तो कोई नई अभाज्य संख्या कहाँ से आएगी? इससे क्या पता चलता है?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["factor", "how many", "count"],
+    "question": "How do I count the total number of factors of a number?",
+    "answer": "Find the prime factorisation of 12: it is 2² × 3¹. To count all factors, look at the powers: 2 has power 2, and 3 has power 1. Add 1 to each power: (2+1) and (1+1). Multiply these together: 3 × 2 = 6. So 12 has 6 factors. Can you verify by listing all factors of 12?",
+    "language": "en"
+  },
+  {
+    "keywords": ["गुणनखंड", "कुल", "कितने", "गिनना"],
+    "question": "किसी संख्या के कुल गुणनखंड कितने होते हैं, यह कैसे पता करें?",
+    "answer": "12 का अभाज्य गुणनखंडन है 2² × 3¹। घातों में 1 जोड़ो: (2+1) और (1+1)। इन्हें गुणा करो: 3 × 2 = 6। तो 12 के 6 गुणनखंड हैं! क्या तुम 12 के सभी गुणनखंड लिखकर इसकी पुष्टि कर सकते हो?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["prime", "factorisation", "lcm", "common multiple"],
+    "question": "How does prime factorisation help find the LCM?",
+    "answer": "Think about finding the LCM of 12 and 18. Prime factors of 12: 2² × 3. Prime factors of 18: 2 × 3². For the LCM, take the highest power of each prime: 2² and 3². So LCM = 4 × 9 = 36. Does 36 appear in both the 12-times and 18-times tables? Go check!",
+    "language": "en"
+  },
+  {
+    "keywords": ["अभाज्य", "गुणनखंडन", "LCM", "लघुत्तम"],
+    "question": "अभाज्य गुणनखंडन से LCM कैसे निकालते हैं?",
+    "answer": "12 और 18 का LCM निकालते हैं। 12 = 2² × 3, 18 = 2 × 3²। हर अभाज्य की सबसे बड़ी घात लो: 2² और 3²। LCM = 4 × 9 = 36। क्या 36, 12 के पहाड़े और 18 के पहाड़े दोनों में आता है? जाँचो!",
+    "language": "hi"
+  },
+  {
+    "keywords": ["number", "factor", "itself", "always"],
+    "question": "Is a number always a factor of itself?",
+    "answer": "Take any number, say 17. Can you divide 17 by 17 exactly? What is the quotient? And take 100 — can you divide 100 by 100 exactly? What do you always get when you divide a number by itself? Does that make it a factor?",
+    "language": "en"
+  },
+  {
+    "keywords": ["संख्या", "खुद", "गुणनखंड", "हमेशा"],
+    "question": "क्या कोई संख्या हमेशा अपना खुद गुणनखंड होती है?",
+    "answer": "17 को 17 से भाग दो — क्या शेषफल 0 है? भागफल क्या है? अब 100 को 100 से भाग दो। जब भी कोई संख्या खुद से विभाजित हो, तो भागफल क्या होता है? क्या इससे वह खुद की गुणनखंड बनती है?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["prime", "factorisation", "hcf", "gcf"],
+    "question": "How does prime factorisation help find the HCF?",
+    "answer": "Prime factors of 24: 2³ × 3. Prime factors of 36: 2² × 3². For HCF, take the LOWEST power of each common prime. Both have 2 and 3. Lowest power of 2 is 2², and of 3 is 3¹. So HCF = 4 × 3 = 12. Can you verify that 12 is indeed the greatest number dividing both 24 and 36?",
+    "language": "en"
+  },
+  {
+    "keywords": ["अभाज्य", "गुणनखंडन", "HCF", "महत्तम"],
+    "question": "अभाज्य गुणनखंडन से HCF कैसे निकालते हैं?",
+    "answer": "24 = 2³ × 3, 36 = 2² × 3²। HCF के लिए हर उभयनिष्ठ अभाज्य की सबसे छोटी घात लो: 2² और 3¹। HCF = 4 × 3 = 12। क्या तुम जाँच सकते हो कि 12 सच में 24 और 36 दोनों को पूरा-पूरा बाँटता है?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["prime", "number", "only even"],
+    "question": "Why is 2 the only even prime number?",
+    "answer": "Every even number greater than 2 can be written as 2 × (something). That means every even number greater than 2 has at least three factors: 1, 2, and itself. But a prime number can have only exactly two factors. So why can't any even number larger than 2 be prime?",
+    "language": "en"
+  },
+  {
+    "keywords": ["2", "एकमात्र", "सम", "अभाज्य"],
+    "question": "2 ही क्यों एकमात्र सम अभाज्य संख्या है?",
+    "answer": "2 से बड़ी हर सम संख्या को 2 × (कुछ) के रूप में लिखा जा सकता है। इसका मतलब उस संख्या के कम से कम तीन गुणनखंड होंगे: 1, 2, और खुद वह संख्या। लेकिन अभाज्य संख्या के तो ठीक दो ही गुणनखंड होते हैं। तो 2 से बड़ी कोई सम संख्या अभाज्य क्यों नहीं हो सकती?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["factor", "method", "division", "find"],
+    "question": "Is there a division method to find factors?",
+    "answer": "Yes! To find factors of 30 using division, start dividing: 30 ÷ 1 = 30 (both 1 and 30 are factors), 30 ÷ 2 = 15 (both 2 and 15 are factors), 30 ÷ 3 = 10 (both 3 and 10 are factors), 30 ÷ 4 = ? Does it divide exactly? When do you think you can stop checking?",
+    "language": "en"
+  },
+  {
+    "keywords": ["गुणनखंड", "भाग", "विधि"],
+    "question": "भाग विधि से गुणनखंड कैसे ढूंढते हैं?",
+    "answer": "30 के गुणनखंड ढूंढो: 30 ÷ 1 = 30 (1 और 30 दोनों गुणनखंड), 30 ÷ 2 = 15 (2 और 15 दोनों गुणनखंड), 30 ÷ 3 = 10 (3 और 10 दोनों गुणनखंड)। 30 ÷ 4 = ? क्या यह पूरा-पूरा जाता है? तुम्हें कहाँ तक जाँचना होगा?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["prime time", "chapter 5", "what learn", "topics"],
+    "question": "What will I learn in Chapter 5 Prime Time?",
+    "answer": "Great question to start with! Chapter 5 explores some fascinating ideas about numbers. Think about this: are all numbers equally 'breakable'? You will discover that some numbers like 2, 3, 5 and 7 are the building blocks of all other numbers. What do you think makes these special numbers different from 4, 6, or 9?",
+    "language": "en"
+  },
+  {
+    "keywords": ["prime", "time", "अध्याय", "5", "क्या", "सीखेंगे"],
+    "question": "अध्याय 5 'अभाज्य समय' में हम क्या सीखेंगे?",
+    "answer": "यह अध्याय संख्याओं की एक रोचक दुनिया से मिलवाएगा! सोचो: क्या सभी संख्याएँ छोटे-छोटे हिस्सों में टूट सकती हैं? तुम पाओगे कि 2, 3, 5, 7 जैसी संख्याएँ सभी संख्याओं की 'ईंटें' हैं। क्या तुम सोच सकते हो कि ये संख्याएँ 4, 6 या 9 से कैसे अलग हैं?",
+    "language": "hi"
+  }
+]

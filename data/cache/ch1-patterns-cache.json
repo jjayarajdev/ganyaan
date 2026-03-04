@@ -1,0 +1,596 @@
+[
+  {
+    "keywords": ["pattern", "what", "sequence"],
+    "question": "What is a pattern?",
+    "answer": "Great question! Think about the tiles on your floor or the buttons on your shirt. Do they repeat in a regular way? Can you tell what comes next if you look closely? What do you think a pattern means?",
+    "language": "en"
+  },
+  {
+    "keywords": ["number", "pattern", "sequence", "series"],
+    "question": "What is a number pattern?",
+    "answer": "Look at this row: 2, 4, 6, 8. Can you figure out what comes next? What is happening to each number as you move forward? By how much does each number increase?",
+    "language": "en"
+  },
+  {
+    "keywords": ["even", "numbers", "2 4 6 8"],
+    "question": "What is the pattern in 2, 4, 6, 8?",
+    "answer": "Look carefully — 2, 4, 6, 8. By how much are you jumping each time? If you kept going, what would the 6th number be? Can you tell what these numbers have in common?",
+    "language": "en"
+  },
+  {
+    "keywords": ["odd", "numbers", "1 3 5 7"],
+    "question": "What is the pattern in 1, 3, 5, 7?",
+    "answer": "Start at 1 and look at 3, then 5, then 7. What is the gap between each pair of numbers? If a friend continued this list, what numbers would they write next? Are these numbers even or odd?",
+    "language": "en"
+  },
+  {
+    "keywords": ["next", "number", "find", "missing"],
+    "question": "How do I find the next number in a pattern?",
+    "answer": "Look at the numbers you already have and ask yourself — what is changing each time? Are the numbers going up or down? By the same amount, or something different? Once you spot the rule, can you use it to find what comes next?",
+    "language": "en"
+  },
+  {
+    "keywords": ["rule", "pattern", "find", "discover"],
+    "question": "How do I find the rule of a pattern?",
+    "answer": "Try subtracting one number from the next and see what you get. Do that a few times. Is the difference always the same? If yes, you have found the rule! What did you discover?",
+    "language": "en"
+  },
+  {
+    "keywords": ["counting", "by 2", "skip", "jump"],
+    "question": "What is skip counting?",
+    "answer": "Imagine you are hopping along a number line and you always skip one number. If you start at 0 and skip every other number, which numbers do you land on? What pattern do those numbers make?",
+    "language": "en"
+  },
+  {
+    "keywords": ["counting", "by 5", "fives", "5 10 15"],
+    "question": "What is the pattern when counting by 5?",
+    "answer": "Think about how you count the coins in a 5-rupee pile. 5, 10, 15 — what do all these numbers end with? If you continue to 30 and 35, do they follow the same ending? What is the rule?",
+    "language": "en"
+  },
+  {
+    "keywords": ["counting", "by 10", "tens", "10 20 30"],
+    "question": "What is the pattern when counting by 10?",
+    "answer": "Can you count your fingers in groups of 10? 10, 20, 30 — what digit is always in the ones place? If you go all the way to 100, how many tens did you count? What makes this pattern easy to spot?",
+    "language": "en"
+  },
+  {
+    "keywords": ["square", "number", "what", "meaning"],
+    "question": "What is a square number?",
+    "answer": "Imagine arranging coins in a neat square shape — 2 rows of 2 coins, then 3 rows of 3. How many coins do you use each time? Can you see why these are called square numbers?",
+    "language": "en"
+  },
+  {
+    "keywords": ["1 4 9 16 25", "square", "list"],
+    "question": "What are the first few square numbers?",
+    "answer": "Try drawing dots in square arrangements: 1 dot, then 4 dots in a 2×2 square, then 9 dots in a 3×3 square. How many dots fit in a 4×4 square? What about 5×5? Can you see a pattern in the totals?",
+    "language": "en"
+  },
+  {
+    "keywords": ["square", "multiply", "itself", "times"],
+    "question": "How do I calculate a square number?",
+    "answer": "What is 3 multiplied by 3? Now what is 4 multiplied by 4? Do you notice you are multiplying a number by itself? What do you think 5 times 5 would give you?",
+    "language": "en"
+  },
+  {
+    "keywords": ["square", "dot", "array", "picture"],
+    "question": "How do square numbers look as dot arrays?",
+    "answer": "Grab some coins or small stones. Can you arrange 9 of them into equal rows and equal columns? How many rows and columns do you get? What shape does the whole arrangement look like?",
+    "language": "en"
+  },
+  {
+    "keywords": ["square", "next", "after", "25"],
+    "question": "What comes after 25 in the square numbers?",
+    "answer": "The square numbers so far are 1, 4, 9, 16, 25. Each one is a number multiplied by itself. What is 6 multiplied by 6? Is that the next square number?",
+    "language": "en"
+  },
+  {
+    "keywords": ["square", "odd", "difference", "gap"],
+    "question": "Is there a pattern in the gaps between square numbers?",
+    "answer": "Look at the gaps: from 1 to 4 is 3, from 4 to 9 is 5, from 9 to 16 is 7. What kind of numbers are 3, 5, 7? What do you think the next gap will be? Can you guess the pattern without calculating?",
+    "language": "en"
+  },
+  {
+    "keywords": ["triangular", "number", "what", "meaning"],
+    "question": "What is a triangular number?",
+    "answer": "Imagine stacking blocks like a staircase — 1 block on top, then 2 blocks below, then 3 below that. How many blocks are in each staircase? Can you see why those totals are called triangular numbers?",
+    "language": "en"
+  },
+  {
+    "keywords": ["1 3 6 10", "triangular", "list"],
+    "question": "What are the first few triangular numbers?",
+    "answer": "Place 1 dot in row 1, 2 dots in row 2, 3 dots in row 3. Count all the dots — that gives you triangular numbers! How many dots altogether after 4 rows? And after 5 rows?",
+    "language": "en"
+  },
+  {
+    "keywords": ["triangular", "staircase", "rows", "steps"],
+    "question": "How do triangular numbers relate to staircases?",
+    "answer": "Think of a staircase where each step adds one more block than the step above. If your staircase has 4 steps, how many blocks do you need total? What about 5 steps? Do those totals match the triangular numbers?",
+    "language": "en"
+  },
+  {
+    "keywords": ["triangular", "next", "after", "10"],
+    "question": "What comes after 10 in the triangular numbers?",
+    "answer": "The triangular numbers are 1, 3, 6, 10. Each new one is made by adding the next counting number. After 10, you add 5 to get the next. What is 10 + 5? And after that, what would you add?",
+    "language": "en"
+  },
+  {
+    "keywords": ["triangular", "add", "row", "build"],
+    "question": "How do I find the next triangular number?",
+    "answer": "The triangular numbers grow by adding 1 more each time: we add 1, then 2, then 3, then 4. What would you add to 10 to get the next triangular number? Can you see the pattern in what you are adding?",
+    "language": "en"
+  },
+  {
+    "keywords": ["triangular", "dot", "triangle", "shape"],
+    "question": "How do triangular numbers look as dot patterns?",
+    "answer": "Try arranging dots like a triangle — 1 dot at the top, 2 in the next row, 3 in the next. Count all the dots when you have 3 rows. Then try 4 rows. Does the total match the triangular numbers you know?",
+    "language": "en"
+  },
+  {
+    "keywords": ["shape", "pattern", "repeat", "design"],
+    "question": "What is a shape pattern?",
+    "answer": "Look at a necklace with beads — circle, square, circle, square. The shapes keep repeating! Can you tell which shape comes next? What is the repeating unit in that pattern?",
+    "language": "en"
+  },
+  {
+    "keywords": ["repeating", "pattern", "cycle", "unit"],
+    "question": "What is a repeating pattern?",
+    "answer": "Imagine a border design: triangle, circle, triangle, circle. This pattern repeats over and over. What is the core group of shapes that keeps repeating? If you added 3 more shapes, what would they be?",
+    "language": "en"
+  },
+  {
+    "keywords": ["growing", "pattern", "shape", "increase"],
+    "question": "What is a growing pattern?",
+    "answer": "Think of an L-shape made of blocks. If you add one more block each time to make it bigger, does the shape keep changing? How many blocks are added each time? Can you predict what the 5th shape will look like?",
+    "language": "en"
+  },
+  {
+    "keywords": ["shape", "next", "predict", "continue"],
+    "question": "How do I predict the next shape in a pattern?",
+    "answer": "First, look carefully at the shapes you already have. Is anything repeating? Is anything growing? Once you know the rule, can you describe what the very next shape should look like?",
+    "language": "en"
+  },
+  {
+    "keywords": ["colour", "color", "pattern", "red blue"],
+    "question": "Can colours make a pattern?",
+    "answer": "Imagine coloring squares: red, blue, blue, red, blue, blue. What group keeps repeating? If you continued the pattern, what color would the 10th square be? How did you figure that out?",
+    "language": "en"
+  },
+  {
+    "keywords": ["sequence", "relation", "connect", "link"],
+    "question": "How are different sequences related?",
+    "answer": "Look at the even numbers 2, 4, 6, 8 and the square numbers 1, 4, 9, 16. Do you notice that 4 appears in both? Are there other numbers that belong to more than one sequence? What does that tell you?",
+    "language": "en"
+  },
+  {
+    "keywords": ["square", "triangular", "relation", "connection"],
+    "question": "How are square numbers and triangular numbers related?",
+    "answer": "Try adding two consecutive triangular numbers: 1 + 3 = 4, which is a square number. Try 3 + 6 — is that also a square? What about 6 + 10? Can you see the connection?",
+    "language": "en"
+  },
+  {
+    "keywords": ["even", "odd", "sum", "add", "consecutive"],
+    "question": "What happens when you add two odd numbers?",
+    "answer": "Add 1 + 3 — what do you get? Now add 3 + 5, then 5 + 7. Are the answers always even or always odd? Can you think of why that might happen?",
+    "language": "en"
+  },
+  {
+    "keywords": ["odd", "square", "sum", "consecutive"],
+    "question": "What is the connection between odd numbers and square numbers?",
+    "answer": "Add the first odd number: 1. Now add the first two odd numbers: 1 + 3 = 4. Add the first three: 1 + 3 + 5 = 9. Do those sums look familiar? What pattern do you see forming?",
+    "language": "en"
+  },
+  {
+    "keywords": ["multiple", "pattern", "times table"],
+    "question": "Are multiples a type of pattern?",
+    "answer": "Look at the multiples of 3: 3, 6, 9, 12. By how much does each number increase? Does that remind you of a skip-counting pattern? What rule would you write for this sequence?",
+    "language": "en"
+  },
+  {
+    "keywords": ["fibonacci", "special", "1 1 2 3 5"],
+    "question": "What is special about the sequence 1, 1, 2, 3, 5?",
+    "answer": "Look carefully: 1 + 1 = 2, and 1 + 2 = 3, and 2 + 3 = 5. Can you see what the rule is? What number would come next in this sequence? Try it!",
+    "language": "en"
+  },
+  {
+    "keywords": ["pattern", "real", "life", "everyday", "nature"],
+    "question": "Where do we see patterns in real life?",
+    "answer": "Look at a honeycomb — all the cells are hexagons! Or think about the petals of a flower. Do you notice any numbers or shapes repeating? Can you find one pattern in your classroom right now?",
+    "language": "en"
+  },
+  {
+    "keywords": ["why", "pattern", "important", "useful"],
+    "question": "Why are patterns important in mathematics?",
+    "answer": "If you know the pattern in 2, 4, 6, 8 you can say what the 100th number is without listing all 100! How would knowing a rule save you time? Can you think of a situation where predicting ahead would be helpful?",
+    "language": "en"
+  },
+  {
+    "keywords": ["difference", "constant", "same gap"],
+    "question": "What does it mean when the difference is always the same?",
+    "answer": "Look at 5, 10, 15, 20. Subtract each number from the one after it. Do you always get the same answer? When the gap stays the same throughout, what do you think that tells us about the pattern?",
+    "language": "en"
+  },
+  {
+    "keywords": ["sequence", "decreasing", "going down", "subtract"],
+    "question": "Can a pattern go downward?",
+    "answer": "Think about: 20, 17, 14, 11. Is this going up or down? By how much does it decrease each time? What would the next two numbers be? Can you describe the rule in your own words?",
+    "language": "en"
+  },
+  {
+    "keywords": ["hundred chart", "pattern", "grid", "diagonal"],
+    "question": "What patterns can you find in a hundreds chart?",
+    "answer": "In a hundreds chart, all multiples of 10 line up in one column. Do the multiples of 5 also form a pattern? What about the diagonal lines — do you see numbers that differ by 11? What other patterns can you find?",
+    "language": "en"
+  },
+  {
+    "keywords": ["blocks", "staircase", "grow", "add one"],
+    "question": "If I add one block to each step of a staircase, how does it grow?",
+    "answer": "If your staircase has 1, 2, 3, 4 blocks in each step, how many blocks are there altogether? What if you added a 5th step — how many new blocks would you need? Does the total match the triangular numbers?",
+    "language": "en"
+  },
+  {
+    "keywords": ["predict", "term", "10th", "100th"],
+    "question": "How can I predict a number far ahead in a pattern?",
+    "answer": "If the pattern is 3, 6, 9, 12 — adding 3 each time — what is the 5th term? What about the 10th term? Instead of listing every number, is there a shortcut using the rule you discovered?",
+    "language": "en"
+  },
+  {
+    "keywords": ["square", "odd numbers", "1 3 5 pattern"],
+    "question": "Why are odd numbers connected to square numbers?",
+    "answer": "Try this — draw a square of 1 dot, then grow it into a 2×2 square. How many dots did you add? Grow it to 3×3 — how many dots added this time? Are those additions odd numbers? What pattern do you notice?",
+    "language": "en"
+  },
+  {
+    "keywords": ["compare", "square", "triangular", "list"],
+    "question": "What is the difference between square numbers and triangular numbers?",
+    "answer": "Can you list the first five square numbers and the first five triangular numbers side by side? Look at their shapes when made with dots — one is a square and one is a triangle. How are the dot arrangements different?",
+    "language": "en"
+  },
+  {
+    "keywords": ["pattern", "table", "organize", "chart"],
+    "question": "How can I organise a pattern in a table?",
+    "answer": "Try making two columns — one for the position (1st, 2nd, 3rd…) and one for the value. Fill in a few rows for the pattern 4, 8, 12, 16. Does the table make it easier to spot the rule? What is the rule?",
+    "language": "en"
+  },
+  {
+    "keywords": ["number line", "pattern", "jump", "hop"],
+    "question": "How do patterns show up on a number line?",
+    "answer": "Mark 0 on a number line and start hopping by 3 each time. Where do you land? 3, 6, 9... If you made 7 hops, where would you be? Can you see the pattern of landing spots?",
+    "language": "en"
+  },
+  {
+    "keywords": ["what comes next", "blank", "fill", "missing term"],
+    "question": "How do I fill in a missing term in a pattern?",
+    "answer": "Look at: 5, 10, __, 20, 25. What is the gap between the numbers you can see? Use that gap to figure out what the missing number must be. Can you check your answer by making sure it fits both the number before and after?",
+    "language": "en"
+  },
+  {
+    "keywords": ["square", "perfect square", "is it square"],
+    "question": "How do I know if a number is a square number?",
+    "answer": "Can you arrange 16 dots into an equal number of rows and columns with nothing left over? Try it! If you can make a perfect square arrangement, then 16 is a square number. What about 12 — can you do the same?",
+    "language": "en"
+  },
+  {
+    "keywords": ["sum", "first n", "natural numbers", "triangular"],
+    "question": "Is there a connection between adding natural numbers and triangular numbers?",
+    "answer": "Add 1 + 2 = 3. Add 1 + 2 + 3 = 6. Add 1 + 2 + 3 + 4 = 10. Do those answers match the triangular numbers? Why do you think that happens? What would 1 + 2 + 3 + 4 + 5 give you?",
+    "language": "en"
+  },
+  {
+    "keywords": ["pattern", "abab", "abc", "unit repeat"],
+    "question": "What are ABAB and ABCABC patterns?",
+    "answer": "In an ABAB pattern like circle-square-circle-square, two shapes alternate. In ABCABC, three shapes repeat together. Can you make your own ABCABC pattern using three different objects on your desk? What comes after your third item?",
+    "language": "en"
+  },
+  {
+    "keywords": ["doubling", "double", "twice", "2 4 8 16"],
+    "question": "What is a doubling pattern?",
+    "answer": "Start with 1. Double it to get 2. Double again to get 4, then 8. How quickly does the number grow? After 6 doublings starting from 1, how big is the number? Is this pattern faster or slower than adding the same number each time?",
+    "language": "en"
+  },
+  {
+    "keywords": ["pattern", "geometry", "tile", "floor"],
+    "question": "How do shapes tile a floor in a pattern?",
+    "answer": "Think about bathroom tiles — why are squares and triangles good shapes for covering a floor without gaps? If you started with one tile and added more in a regular way, how would the total count grow? What number pattern would that create?",
+    "language": "en"
+  },
+  {
+    "keywords": ["क्रम", "संख्या", "श्रेणी", "पैटर्न"],
+    "question": "संख्या पैटर्न क्या होता है?",
+    "answer": "देखो: 2, 4, 6, 8 — क्या हर संख्या से अगली संख्या तक कोई नियम दिखता है? हर बार कितना जुड़ रहा है? अगर यह क्रम आगे बढ़े तो अगली संख्या क्या होगी?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["पैटर्न", "क्या", "अर्थ"],
+    "question": "पैटर्न किसे कहते हैं?",
+    "answer": "अपने कपड़ों की बुनावट देखो या फर्श की टाइल्स। क्या वे एक ही तरीके से बार-बार दोहराती हैं? अगर वह दोहराव हो, तो उसे पैटर्न कहते हैं। तुम अपने आस-पास एक पैटर्न खोज सकते हो?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["सम", "संख्या", "2 4 6 8"],
+    "question": "2, 4, 6, 8 में क्या पैटर्न है?",
+    "answer": "2, 4, 6, 8 — हर बार कितना बढ़ रहा है? इन सभी संख्याओं में क्या समानता है? क्या ये सम संख्याएँ हैं? अगली दो संख्याएँ क्या होंगी?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["विषम", "संख्या", "1 3 5 7"],
+    "question": "1, 3, 5, 7 में क्या पैटर्न है?",
+    "answer": "1 से 3, फिर 3 से 5 — हर बार कितनी छलांग लग रही है? ये सभी विषम संख्याएँ हैं या सम? अगर यह क्रम जारी रहे, तो 9 के बाद क्या आएगा?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["नियम", "खोजना", "पैटर्न", "फर्क"],
+    "question": "पैटर्न का नियम कैसे ढूँढें?",
+    "answer": "एक संख्या से अगली संख्या घटाकर देखो — क्या वह फर्क हर बार एक जैसा है? अगर हाँ, तो वही नियम है! 10, 15, 20, 25 में फर्क क्या है? नियम बताओ।",
+    "language": "hi"
+  },
+  {
+    "keywords": ["छोड़ छोड़कर", "गिनती", "कूद", "5 10 15"],
+    "question": "छलांग लगाकर गिनती क्या होती है?",
+    "answer": "5 के सिक्कों को गिनो — 5, 10, 15, 20। हर बार कितना बढ़ रहा है? अगर 8वीं संख्या तक जाओ, तो वह क्या होगी? इस गिनती में हर संख्या किस से बनती है?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["वर्ग", "संख्या", "क्या", "अर्थ"],
+    "question": "वर्ग संख्या क्या होती है?",
+    "answer": "सिक्कों को 2 कतार में 2-2 करके सजाओ — कुल 4 सिक्के। फिर 3 कतार में 3-3 — कुल 9 सिक्के। ये वर्ग के आकार में हैं इसलिए इन्हें वर्ग संख्याएँ कहते हैं। अगला वर्ग कितने सिक्कों का होगा?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["1 4 9 16 25", "वर्ग", "सूची"],
+    "question": "पहली कुछ वर्ग संख्याएँ कौन सी हैं?",
+    "answer": "1×1=1, 2×2=4, 3×3=9, 4×4=16। क्या तुम देख सकते हो कि हर वर्ग संख्या कैसे बनती है? 5×5 क्या होगा? इन संख्याओं को 1, 4, 9, 16, 25 के रूप में लिखो और आगे बढ़ाओ।",
+    "language": "hi"
+  },
+  {
+    "keywords": ["वर्ग", "गणना", "खुद से गुणा"],
+    "question": "वर्ग संख्या कैसे निकालते हैं?",
+    "answer": "किसी संख्या को खुद से गुणा करो। 4 × 4 क्या है? 6 × 6 क्या होगा? जब कोई संख्या खुद को गुणा करे, तो उसे उस संख्या का वर्ग कहते हैं। क्या 7 का वर्ग निकाल सकते हो?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["वर्ग", "विषम", "अंतर", "अगला"],
+    "question": "वर्ग संख्याओं के बीच का फर्क क्या होता है?",
+    "answer": "1, 4, 9, 16, 25 — पहले फर्क हैं 3, 5, 7, 9। ये क्या हैं — सम या विषम? अगला फर्क क्या होगा? क्या तुम देख सकते हो कि फर्क भी एक पैटर्न बनाता है?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["त्रिभुज", "संख्या", "क्या", "अर्थ"],
+    "question": "त्रिभुज संख्या क्या होती है?",
+    "answer": "सीढ़ी जैसे ब्लॉक सजाओ — 1 ब्लॉक, फिर 2, फिर 3। कुल कितने ब्लॉक हैं? इन कुल संख्याओं को त्रिभुज संख्याएँ कहते हैं। 4 पंक्तियाँ बनाओ — कुल कितने ब्लॉक?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["1 3 6 10", "त्रिभुज", "सूची"],
+    "question": "पहली कुछ त्रिभुज संख्याएँ बताओ।",
+    "answer": "1, 3, 6, 10 — एक से दूसरे में क्या जुड़ रहा है? 1+2=3, 3+3=6, 6+4=10। अगली संख्या बनाने के लिए क्या जोड़ोगे? क्या यह जोड़ भी एक पैटर्न बनाता है?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["त्रिभुज", "सीढ़ी", "पंक्ति", "बढ़ाना"],
+    "question": "त्रिभुज संख्याएँ सीढ़ी से कैसे जुड़ी हैं?",
+    "answer": "एक सीढ़ी में पहले 1 कदम है, फिर 2, फिर 3। अगर 5 कदम हों तो कुल कितने ब्लॉक लगेंगे? क्या वह संख्या 1+2+3+4+5 के बराबर है? त्रिभुज संख्याएँ और सीढ़ी में क्या संबंध है?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["त्रिभुज", "अगली", "10 के बाद"],
+    "question": "10 के बाद अगली त्रिभुज संख्या क्या है?",
+    "answer": "त्रिभुज संख्याएँ हैं 1, 3, 6, 10। हर बार एक ज़्यादा संख्या जुड़ती है — पहले 2, फिर 3, फिर 4। अब 5 जोड़ो — क्या मिलता है? क्या वह अगली त्रिभुज संख्या है?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["आकार", "पैटर्न", "दोहराना", "डिज़ाइन"],
+    "question": "आकार का पैटर्न क्या होता है?",
+    "answer": "एक माला में मोती इस तरह हों: गोल, चौकोर, गोल, चौकोर। कौन सा आकार बार-बार आ रहा है? अगर माला में 10 मोती हों, तो 9वाँ मोती कौन सा होगा?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["दोहराना", "पैटर्न", "इकाई", "बार-बार"],
+    "question": "दोहराने वाला पैटर्न क्या होता है?",
+    "answer": "एक सीमा रेखा में त्रिकोण, वृत्त, त्रिकोण, वृत्त है। यह पैटर्न की 'इकाई' क्या है जो बार-बार दोहराती है? अगर 12 आकार बनाओ, तो अंत में कौन सा आकार होगा?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["बढ़ता", "पैटर्न", "आकार", "ज़्यादा"],
+    "question": "बढ़ता हुआ पैटर्न क्या होता है?",
+    "answer": "ब्लॉक से एक L का आकार बनाओ — पहले 2, फिर 4, फिर 6 ब्लॉक। हर बार कितने ब्लॉक बढ़ रहे हैं? 5वें आकार में कितने ब्लॉक होंगे? क्या तुम नियम बता सकते हो?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["अगला", "आकार", "अनुमान", "क्या होगा"],
+    "question": "पैटर्न में अगला आकार कैसे पता करें?",
+    "answer": "जो आकार दिए हैं उन्हें ध्यान से देखो — क्या कुछ दोहराया जा रहा है? या आकार बड़े हो रहे हैं? एक बार नियम समझ गए तो अगला आकार बताना आसान हो जाता है। तुम्हें क्या नियम दिखा?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["रंग", "पैटर्न", "लाल नीला"],
+    "question": "रंगों से पैटर्न कैसे बनते हैं?",
+    "answer": "लाल, नीला, नीला, लाल, नीला, नीला — किस समूह का दोहराव हो रहा है? 10वाँ रंग क्या होगा? गिनकर देखो या नियम का इस्तेमाल करके बताओ।",
+    "language": "hi"
+  },
+  {
+    "keywords": ["वर्ग", "त्रिभुज", "संबंध", "जोड़"],
+    "question": "वर्ग संख्या और त्रिभुज संख्या में क्या संबंध है?",
+    "answer": "दो लगातार त्रिभुज संख्याएँ जोड़ो: 1+3=4, 3+6=9, 6+10=16। क्या तुम इन जोड़ों को पहचानते हो? ये वर्ग संख्याएँ हैं! क्यों ऐसा होता है — डॉट्स से समझाने की कोशिश करो।",
+    "language": "hi"
+  },
+  {
+    "keywords": ["विषम", "संख्या", "वर्ग", "जोड़"],
+    "question": "विषम संख्याओं का जोड़ वर्ग संख्या क्यों देता है?",
+    "answer": "1 = 1, 1+3 = 4, 1+3+5 = 9। ये कौन सी संख्याएँ हैं — 1, 4, 9? अगर 1+3+5+7 जोड़ो, क्या मिलेगा? इस पैटर्न में विषम संख्याओं और वर्ग संख्याओं का क्या संबंध है?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["श्रृंखला", "संबंध", "जुड़ाव", "अलग-अलग"],
+    "question": "अलग-अलग क्रमों में संबंध कैसे होता है?",
+    "answer": "सम संख्याएँ: 2, 4, 6, 8 — और वर्ग संख्याएँ: 1, 4, 9, 16। दोनों में 4 है! क्या कोई और संख्या दोनों में है? इस तरह दो श्रृंखलाओं को मिलाकर देखना क्या सिखाता है?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["प्राकृत", "संख्या", "जोड़", "त्रिभुज"],
+    "question": "1 से लेकर किसी संख्या तक का जोड़ त्रिभुज संख्या क्यों है?",
+    "answer": "1+2 = 3, 1+2+3 = 6, 1+2+3+4 = 10। ये सब त्रिभुज संख्याएँ हैं! डॉट्स से सीढ़ी बनाओ और गिनो — क्या यह जोड़ और त्रिभुज संख्या एक जैसे हैं? क्यों?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["गुणन", "पैटर्न", "पहाड़ा"],
+    "question": "पहाड़े में पैटर्न कैसे दिखता है?",
+    "answer": "3 का पहाड़ा देखो: 3, 6, 9, 12। हर बार क्या जुड़ रहा है? क्या यह एक संख्या पैटर्न है? 7वीं संख्या क्या होगी बिना पूरा पहाड़ा लिखे?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["दोगुना", "पैटर्न", "2 4 8 16"],
+    "question": "दोगुना करने का पैटर्न क्या होता है?",
+    "answer": "1 से शुरू करो, दोगुना करो — 2, फिर 4, फिर 8। हर बार संख्या कितनी तेज़ी से बढ़ रही है? 6 बार दोगुना करने पर कितना मिलेगा? क्या यह हर बार एक जैसी मात्रा जोड़ने से तेज़ है?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["घटता", "पैटर्न", "नीचे", "घटाना"],
+    "question": "क्या पैटर्न नीचे की ओर भी जा सकता है?",
+    "answer": "देखो: 20, 16, 12, 8 — यह बढ़ रहा है या घट रहा है? हर बार कितना घट रहा है? अगली दो संख्याएँ क्या होंगी? क्या तुम नियम को अपने शब्दों में बता सकते हो?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["खाली", "जगह", "भरना", "लुप्त"],
+    "question": "पैटर्न में खाली जगह कैसे भरें?",
+    "answer": "5, 10, ___, 20, 25 — जो संख्याएँ दिखती हैं उनके बीच क्या फर्क है? उसी फर्क का उपयोग करके खाली जगह भरो। क्या तुम्हारा जवाब सही है यह जाँचने के लिए क्या करोगे?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["वर्ग", "पहचान", "परफेक्ट", "जाँच"],
+    "question": "कैसे पता करें कि कोई संख्या वर्ग संख्या है?",
+    "answer": "16 सिक्के लो। क्या तुम उन्हें बराबर पंक्तियों और स्तंभों में सजा सकते हो? अगर हाँ, तो 16 वर्ग संख्या है। अब 12 के साथ कोशिश करो — क्या यह भी वर्ग संख्या है?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["सौ", "चार्ट", "पैटर्न", "ग्रिड"],
+    "question": "सौ का चार्ट में पैटर्न कैसे दिखते हैं?",
+    "answer": "सौ के चार्ट में 10 के गुणज एक ही कॉलम में आते हैं। 5 के गुणज भी एक पैटर्न बनाते हैं — वे कौन से हैं? क्या तुम विकर्ण में भी कोई नियम देख सकते हो?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["अनुमान", "आगे", "10वाँ", "100वाँ"],
+    "question": "पैटर्न में बहुत आगे का अनुमान कैसे लगाएँ?",
+    "answer": "अगर पैटर्न है 4, 8, 12, 16 — नियम है हर बार 4 जोड़ो। 10वाँ पद बिना सब लिखे कैसे निकालोगे? सोचो — 4 को 10 से गुणा करो। क्या यह काम करता है?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["प्रकृति", "पैटर्न", "जीवन", "आस-पास"],
+    "question": "प्रकृति में पैटर्न कहाँ दिखते हैं?",
+    "answer": "मधुमक्खी के छत्ते को देखो — सब षट्भुज आकार के हैं! फूल की पंखुड़ियाँ गिनो — क्या वे किसी खास संख्या में हैं? तुम्हारे आस-पास एक पैटर्न खोजो और उसका नियम बताओ।",
+    "language": "hi"
+  },
+  {
+    "keywords": ["पैटर्न", "ज़रूरी", "क्यों", "उपयोग"],
+    "question": "पैटर्न गणित में क्यों ज़रूरी हैं?",
+    "answer": "अगर तुम्हें 2, 4, 6, 8 का नियम पता है तो 100वीं संख्या बिना सब लिखे बता सकते हो! क्या यह समय बचाता है? जीवन में ऐसी कौन सी जगह है जहाँ आगे की भविष्यवाणी करना काम आए?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["संख्या", "रेखा", "पैटर्न", "छलांग"],
+    "question": "संख्या रेखा पर पैटर्न कैसे दिखाएँ?",
+    "answer": "संख्या रेखा पर 0 से शुरू करो और 4-4 की छलांग लगाओ। 0, 4, 8, 12 — इन संख्याओं के बीच क्या दिखता है? 7 छलांग के बाद कहाँ पहुँचोगे? क्या इसे हिसाब से भी बता सकते हो?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["तालिका", "पैटर्न", "क्रम", "व्यवस्थित"],
+    "question": "पैटर्न को तालिका में कैसे सजाएँ?",
+    "answer": "दो कॉलम बनाओ — पहले में पद (1, 2, 3...) और दूसरे में मान। 3, 6, 9, 12 के लिए तालिका बनाओ। क्या तालिका से नियम ढूँढना आसान हो गया? नियम क्या है?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["फिबोनाची", "1 1 2 3 5", "खास", "अनोखा"],
+    "question": "1, 1, 2, 3, 5 में क्या खास है?",
+    "answer": "ध्यान से देखो: 1+1=2, 1+2=3, 2+3=5। क्या तुम नियम समझ गए? अगली दो संख्याएँ क्या होंगी? यह पैटर्न प्रकृति में भी दिखता है — क्या तुम जानते हो कहाँ?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["क्रम", "संबंध", "जुड़ाव", "दो श्रृंखला"],
+    "question": "क्या दो अलग-अलग पैटर्न आपस में जुड़े हो सकते हैं?",
+    "answer": "सम संख्याएँ: 2, 4, 6 और वर्ग संख्याएँ: 1, 4, 9 — क्या कोई संख्या दोनों में है? 4 दोनों में है! ऐसी और संख्याएँ खोजो जो दोनों श्रृंखलाओं में हों। क्या कोई नियम दिखता है?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["वर्ग", "डॉट", "सजाना", "चित्र"],
+    "question": "वर्ग संख्याएँ डॉट से कैसी दिखती हैं?",
+    "answer": "9 सिक्के लो और उन्हें 3 कतार और 3 स्तंभ में सजाओ। क्या वे एक वर्ग बनाते हैं? अब 16 सिक्कों के साथ कोशिश करो। क्या आकार फिर से वर्ग बनता है? इसीलिए इन्हें वर्ग संख्याएँ कहते हैं!",
+    "language": "hi"
+  },
+  {
+    "keywords": ["त्रिभुज", "डॉट", "त्रिकोण", "आकार"],
+    "question": "त्रिभुज संख्याएँ डॉट से कैसी दिखती हैं?",
+    "answer": "1 डॉट ऊपर, नीचे 2, उसके नीचे 3 — सब मिलाकर 6। क्या यह त्रिकोण जैसा दिखता है? अब 4 कतारें बनाओ — कुल कितने डॉट? क्या तुम्हें त्रिकोण का आकार दिखा?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["10 तक", "गिनती", "प्राकृत", "संख्या"],
+    "question": "1 से 10 तक जोड़ने पर क्या मिलता है?",
+    "answer": "1+2+3+4+5+6+7+8+9+10 — इसे गिनकर देखो। क्या तुम्हें 55 मिला? क्या 55 एक त्रिभुज संख्या है? 10 पंक्तियों की सीढ़ी में कुल कितने ब्लॉक होंगे?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["abab", "पैटर्न", "दो", "बारी-बारी"],
+    "question": "बारी-बारी बदलने वाला पैटर्न क्या होता है?",
+    "answer": "वृत्त, वर्ग, वृत्त, वर्ग — यहाँ दो आकार बारी-बारी आ रहे हैं। इसे ABAB पैटर्न कहते हैं। अगर 8 आकार बनाओ तो 7वाँ कौन सा होगा? क्या A या B?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["बड़ी", "संख्या", "पद", "सूत्र"],
+    "question": "बिना गिने किसी पद को कैसे जानें?",
+    "answer": "5, 10, 15, 20 — नियम है 5 गुणा पद संख्या। तो 8वाँ पद होगा 5×8 = 40। क्या तुम इसी तरह 12वाँ पद निकाल सकते हो? नियम जानना क्यों मददगार है?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["समान", "फर्क", "एकसमान", "श्रृंखला"],
+    "question": "जब हर बार एक जैसा फर्क हो तो क्या कहते हैं?",
+    "answer": "3, 7, 11, 15 — हर बार 4 जुड़ रहा है। जब हर पद में एक जैसा फर्क हो, तो इसे 'एकसमान क्रम' कहते हैं। 20, 17, 14, 11 में क्या फर्क है? क्या यह भी एकसमान क्रम है?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["गुणज", "पैटर्न", "बहुगुणित"],
+    "question": "गुणज एक पैटर्न कैसे बनाते हैं?",
+    "answer": "4 के गुणज देखो: 4, 8, 12, 16। हर बार क्या जुड़ रहा है? क्या यह 4 की छलांग लगाने जैसा है? 6वाँ गुणज बिना सब लिखे बताओ।",
+    "language": "hi"
+  },
+  {
+    "keywords": ["रेखाचित्र", "ग्राफ", "पैटर्न", "दिखाना"],
+    "question": "पैटर्न को ग्राफ में कैसे दिखाएँ?",
+    "answer": "2, 4, 6, 8 को ग्राफ पर लगाओ — हर बिंदु पिछले से ऊँचा है। क्या ये बिंदु एक सीधी रेखा बनाते हैं? अगर 10, 12 भी लगाओ, क्या रेखा वैसी ही रहती है?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["वर्ग", "त्रिभुज", "सूची", "तुलना"],
+    "question": "वर्ग और त्रिभुज संख्याओं की सूची बनाकर तुलना करें।",
+    "answer": "वर्ग: 1, 4, 9, 16, 25 और त्रिभुज: 1, 3, 6, 10, 15 — दोनों सूचियाँ बनाओ। कौन सी संख्याएँ दोनों में हैं? 1 और 36 — क्या 36 दोनों में है? जाँचो!",
+    "language": "hi"
+  },
+  {
+    "keywords": ["पत्थर", "सिक्के", "सजाना", "गिनना"],
+    "question": "पत्थर या सिक्कों से पैटर्न कैसे बनाएँ?",
+    "answer": "8 सिक्के लो। क्या तुम उन्हें एक सीढ़ी के आकार में सजा सकते हो — 1, 2, 3, 2 नहीं बल्कि 1, 2, 3, 4, 3 नहीं। त्रिभुज के लिए 1, 2, 3 सीधी पंक्तियों में सजाओ। कितने सिक्के लगे? यह कौन सी त्रिभुज संख्या है?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["पहेली", "संख्या", "क्रम", "खोज"],
+    "question": "संख्या पैटर्न एक पहेली की तरह कैसे है?",
+    "answer": "सोचो: ___, 6, 9, 12, 15। खाली जगह में क्या आएगा? नियम ढूँढो पहले — हर बार 3 जुड़ रहा है। तो पहली संख्या 6 से पहले क्या होगी? पहेली सुलझाने जैसा लगा?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["आकार", "बड़ा होना", "हर बार", "वृद्धि"],
+    "question": "हर बार एक ब्लॉक ज़्यादा जोड़ने से कौन सी संख्याएँ बनती हैं?",
+    "answer": "1 ब्लॉक, फिर 1+2=3, फिर 1+2+3=6, फिर 1+2+3+4=10 — ये कौन सी संख्याएँ हैं? हाँ, ये त्रिभुज संख्याएँ हैं! अगर 5 चरणों तक जाओ, कुल कितने ब्लॉक होंगे?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["पैटर्न", "मज़ेदार", "खेल", "खोज"],
+    "question": "क्या पैटर्न ढूँढना एक खेल की तरह है?",
+    "answer": "100 के चार्ट में सभी वर्ग संख्याओं पर गोला लगाओ: 1, 4, 9, 16, 25... क्या वे कोई आकार बनाते हैं? अब त्रिभुज संख्याओं पर रंग भरो — क्या दोनों में कुछ मेल खाता है?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["संख्या", "श्रृंखला", "अनुमान", "आगे बढ़ाना"],
+    "question": "किसी भी श्रृंखला को आगे कैसे बढ़ाएँ?",
+    "answer": "पहले नियम खोजो — क्या जुड़ रहा है, घट रहा है, या दोगुना हो रहा है? फिर उस नियम को अगले पद पर लगाओ। 1, 4, 9, 16 — नियम क्या है? अगला पद क्या होगा?",
+    "language": "hi"
+  }
+]
