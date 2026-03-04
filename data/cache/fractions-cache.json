@@ -1,0 +1,638 @@
+[
+  {
+    "keywords": ["what", "fraction"],
+    "question": "What is a fraction?",
+    "answer": "That's a great starting question! Think about when you share a pizza equally with a friend. You cut it into 2 equal pieces, and each of you gets 1 piece. How would you write down the part you got?",
+    "language": "en"
+  },
+  {
+    "keywords": ["half", "1/2"],
+    "question": "What is 1/2?",
+    "answer": "Imagine you have a chocolate bar and you break it into 2 equal pieces. If you eat one piece, what part of the chocolate did you eat? Can you think of other things you split in half every day?",
+    "language": "en"
+  },
+  {
+    "keywords": ["numerator", "top"],
+    "question": "What is a numerator?",
+    "answer": "Look at a fraction like 3/4. The number on top tells us something important. If you had 4 slices of pizza and took 3, which number tells you how many slices you took? What do you think the top number represents?",
+    "language": "en"
+  },
+  {
+    "keywords": ["denominator", "bottom"],
+    "question": "What is a denominator?",
+    "answer": "In the fraction 3/4, there are two numbers. The bottom one is special! If you cut a cake into equal pieces, what does the bottom number tell you? How many pieces is the whole cake divided into?",
+    "language": "en"
+  },
+  {
+    "keywords": ["equivalent", "equal", "same"],
+    "question": "What are equivalent fractions?",
+    "answer": "Think about this: if you cut a pizza into 2 pieces and take 1, you get 1/2. But what if you cut the same pizza into 4 pieces and take 2? Do you get more pizza, less pizza, or the same amount? What does that tell you about 1/2 and 2/4?",
+    "language": "en"
+  },
+  {
+    "keywords": ["compare", "bigger", "larger", "greater", "smaller"],
+    "question": "How do you compare fractions?",
+    "answer": "Imagine two friends sharing cakes. One gets 1/3 of a cake and another gets 1/4 of the same size cake. If you cut a cake into 3 pieces, are the pieces bigger or smaller than when you cut it into 4 pieces? Who got more cake?",
+    "language": "en"
+  },
+  {
+    "keywords": ["add", "plus", "sum", "adding"],
+    "question": "How do you add fractions?",
+    "answer": "Let's think about it with fruit! If you eat 1/5 of an apple in the morning and 2/5 in the evening, how much apple did you eat in total? When the bottom numbers are the same, what happens to the top numbers?",
+    "language": "en"
+  },
+  {
+    "keywords": ["subtract", "minus", "difference", "take away"],
+    "question": "How do you subtract fractions?",
+    "answer": "You had 4/6 of a chocolate bar and gave away 1/6 to your friend. Can you figure out how much chocolate you have left? It's just like subtracting with whole numbers, but what do you do with the top and bottom numbers?",
+    "language": "en"
+  },
+  {
+    "keywords": ["mixed", "number", "whole", "improper"],
+    "question": "What is a mixed number?",
+    "answer": "Imagine you have 2 full rotis and half of another roti. You have more than 2 but less than 3. How would you write that using fractions? Have you seen numbers like 2 1/2 before?",
+    "language": "en"
+  },
+  {
+    "keywords": ["improper", "fraction", "convert"],
+    "question": "What is an improper fraction?",
+    "answer": "What if the top number of a fraction is bigger than the bottom? Like 7/4 — that means you have more than one whole! If each pizza has 4 slices, and you have 7 slices, how many full pizzas and extra slices do you have?",
+    "language": "en"
+  },
+  {
+    "keywords": ["unit", "fraction", "one"],
+    "question": "What is a unit fraction?",
+    "answer": "Think about fractions where the top number is always 1, like 1/2, 1/3, 1/4. What's special about them? If you cut a ribbon into equal pieces and take just ONE piece, what kind of fraction would that be?",
+    "language": "en"
+  },
+  {
+    "keywords": ["proper", "fraction"],
+    "question": "What is a proper fraction?",
+    "answer": "Look at fractions like 2/5 and 3/7. Compare the top number with the bottom number in each. What do you notice? Is the top number always smaller or bigger? What does that mean about how much of the whole you have?",
+    "language": "en"
+  },
+  {
+    "keywords": ["number", "line", "represent"],
+    "question": "How do you show fractions on a number line?",
+    "answer": "Imagine a road from 0 to 1. If you divide this road into 4 equal parts, where would 3/4 be? How many parts from the start would you walk? Can you picture where 1/4 and 2/4 would be too?",
+    "language": "en"
+  },
+  {
+    "keywords": ["like", "unlike", "denominator"],
+    "question": "What are like and unlike fractions?",
+    "answer": "Look at 2/7 and 5/7 — they both have 7 on the bottom! Now look at 1/3 and 1/5 — they have different bottom numbers. Which pair do you think is easier to compare? What makes them 'like' or 'unlike'?",
+    "language": "en"
+  },
+  {
+    "keywords": ["simplify", "reduce", "lowest", "simplest"],
+    "question": "How do you simplify fractions?",
+    "answer": "If you have 4/8 of a pizza, can you think of a simpler way to say that? What if you divide both the top and bottom numbers by the same number? What number could you divide both 4 and 8 by?",
+    "language": "en"
+  },
+  {
+    "keywords": ["whole", "one", "1"],
+    "question": "What fraction makes a whole?",
+    "answer": "If a cake is cut into 5 equal pieces, and you have all 5 pieces, what fraction do you have? 5/5 — but wait, that's the whole cake! When the top and bottom numbers are equal, what does the fraction equal?",
+    "language": "en"
+  },
+  {
+    "keywords": ["quarter", "fourth", "1/4"],
+    "question": "What is one quarter?",
+    "answer": "Think about a chapati. If you fold it in half, then fold it in half again, how many equal parts do you get? If you eat just one of those parts, what fraction of the chapati did you eat?",
+    "language": "en"
+  },
+  {
+    "keywords": ["third", "1/3", "three"],
+    "question": "What is one third?",
+    "answer": "If three friends want to share one bar of chocolate equally, how much does each friend get? Can you write that as a fraction? What would 2/3 mean in this sharing situation?",
+    "language": "en"
+  },
+  {
+    "keywords": ["real", "life", "example", "daily", "everyday"],
+    "question": "Where do we use fractions in real life?",
+    "answer": "Think about your day! When you drink half a glass of milk, that's 1/2. When you say 'quarter past 3' for time, that's 1/4 of an hour. Can you think of two more places where you use fractions every day?",
+    "language": "en"
+  },
+  {
+    "keywords": ["pizza", "share", "divide", "split"],
+    "question": "How do you share a pizza equally?",
+    "answer": "If 4 friends want to share a pizza equally, how many pieces should you cut it into? Each friend gets one piece out of 4 — what fraction is that? What if 8 friends wanted to share? How would the fraction change?",
+    "language": "en"
+  },
+  {
+    "keywords": ["भिन्न", "क्या"],
+    "question": "भिन्न क्या है?",
+    "answer": "सोचो, अगर तुम एक रोटी को 4 बराबर हिस्सों में बाँटो, और 1 हिस्सा खाओ, तो तुमने कितनी रोटी खाई? इसे संख्या में कैसे लिखोगे?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["अंश", "ऊपर"],
+    "question": "अंश क्या होता है?",
+    "answer": "भिन्न 3/4 में ऊपर वाली संख्या को देखो। अगर तुम्हारे पास 4 मिठाइयाँ हों और तुम 3 ले लो, तो ऊपर वाली संख्या क्या बताती है? कितनी मिठाइयाँ तुमने लीं?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["हर", "नीचे"],
+    "question": "हर क्या होता है?",
+    "answer": "भिन्न 3/4 में नीचे वाली संख्या 4 है। अगर तुम एक केक को बराबर टुकड़ों में काटो, तो नीचे वाली संख्या क्या बताती है? पूरे केक में कितने टुकड़े हैं?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["समतुल्य", "बराबर", "समान"],
+    "question": "समतुल्य भिन्न क्या होती हैं?",
+    "answer": "एक पिज़्ज़ा को 2 बराबर हिस्सों में काटो और 1 लो — यह 1/2 है। अब वही पिज़्ज़ा 4 हिस्सों में काटो और 2 लो। क्या तुम्हें ज़्यादा पिज़्ज़ा मिला, कम, या बराबर? 1/2 और 2/4 में क्या संबंध है?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["तुलना", "बड़ा", "छोटा"],
+    "question": "भिन्नों की तुलना कैसे करें?",
+    "answer": "एक दोस्त को केक का 1/3 हिस्सा मिला और दूसरे को 1/4। अगर एक ही केक को 3 टुकड़ों में काटो तो टुकड़े बड़े होंगे या 4 टुकड़ों में? किसको ज़्यादा केक मिला?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["जोड़", "जोड़ना", "plus"],
+    "question": "भिन्नों को कैसे जोड़ें?",
+    "answer": "अगर तुम सुबह एक सेब का 1/5 हिस्सा खाओ और शाम को 2/5, तो कुल कितना सेब खाया? जब नीचे की संख्या एक जैसी हो, तो ऊपर की संख्याओं का क्या करते हैं?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["घटाना", "minus"],
+    "question": "भिन्नों को कैसे घटाएँ?",
+    "answer": "तुम्हारे पास चॉकलेट का 4/6 हिस्सा था और तुमने 1/6 अपने दोस्त को दे दिया। अब तुम्हारे पास कितनी चॉकलेट बची? ऊपर और नीचे की संख्याओं के साथ क्या करोगे?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["मिश्रित", "संख्या"],
+    "question": "मिश्रित संख्या क्या है?",
+    "answer": "सोचो तुम्हारे पास 2 पूरी रोटियाँ और आधी रोटी है। यह 2 से ज़्यादा है पर 3 से कम। इसे भिन्न से कैसे लिखोगे? क्या तुमने 2½ जैसी संख्याएँ देखी हैं?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["विषम", "भिन्न", "बदलना"],
+    "question": "विषम भिन्न क्या होती है?",
+    "answer": "अगर भिन्न में ऊपर की संख्या नीचे से बड़ी हो, जैसे 7/4? इसका मतलब एक पूरे से ज़्यादा है! अगर हर पिज़्ज़ा में 4 टुकड़े हों और तुम्हारे पास 7 टुकड़े हों, तो कितने पूरे पिज़्ज़ा और कितने बचे?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["रोटी", "बाँटना", "हिस्सा"],
+    "question": "रोटी को बराबर कैसे बाँटें?",
+    "answer": "अगर 4 लोग एक रोटी बराबर बाँटना चाहें, तो कितने टुकड़े करने होंगे? हर व्यक्ति को 4 में से 1 टुकड़ा मिलेगा — यह कौन सी भिन्न है? अगर 8 लोग हों तो?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["lcm", "common", "denominator", "different"],
+    "question": "How do you add fractions with different denominators?",
+    "answer": "What if you want to add 1/3 and 1/4? Their bottom numbers are different! Think about it — can you find a number that both 3 and 4 go into evenly? Once you make the bottom numbers the same, adding becomes easy. What number works for both 3 and 4?",
+    "language": "en"
+  },
+  {
+    "keywords": ["equal", "parts", "whole", "divide"],
+    "question": "Why must parts be equal in fractions?",
+    "answer": "Imagine cutting a pizza into pieces, but one piece is huge and another is tiny. If your friend takes the big piece and you take the small one, did you each get 1/2? Why is it important that all the pieces are the same size?",
+    "language": "en"
+  },
+  {
+    "keywords": ["multiply", "top", "bottom", "equivalent"],
+    "question": "How do you make equivalent fractions?",
+    "answer": "Start with 1/2. If you multiply both the top and bottom by 2, you get 2/4. Try multiplying by 3 — what do you get? Do all these fractions represent the same amount of pizza? What pattern do you see?",
+    "language": "en"
+  },
+  {
+    "keywords": ["zero", "fraction", "0"],
+    "question": "Can a fraction be zero?",
+    "answer": "If you have a box of 6 chocolates and you eat 0 of them, what fraction did you eat? What does 0/6 equal? What about 0/100? Do you see a pattern when the top number is 0?",
+    "language": "en"
+  },
+  {
+    "keywords": ["1/2", "2/4", "same", "prove"],
+    "question": "How do you prove 1/2 equals 2/4?",
+    "answer": "Draw a rectangle. Divide it into 2 equal parts and shade 1 — that's 1/2. Now draw the same rectangle, divide it into 4 equal parts and shade 2 — that's 2/4. Look at both pictures. Is the shaded area the same? What does that tell you?",
+    "language": "en"
+  },
+  {
+    "keywords": ["3/4", "three", "quarter"],
+    "question": "What does 3/4 mean?",
+    "answer": "Imagine a chocolate bar broken into 4 equal pieces. If you eat 3 of those pieces, you've eaten 3/4 of the bar. How much is left? Can you think of 3/4 in terms of time — like 3/4 of an hour?",
+    "language": "en"
+  },
+  {
+    "keywords": ["bigger", "1/3", "1/2"],
+    "question": "Which is bigger, 1/3 or 1/2?",
+    "answer": "Imagine two identical cakes. You cut one into 3 equal pieces and take 1 piece. You cut the other into 2 equal pieces and take 1 piece. From which cake did you get a bigger piece? Why?",
+    "language": "en"
+  },
+  {
+    "keywords": ["2/3", "3/4", "compare", "which"],
+    "question": "Which is bigger, 2/3 or 3/4?",
+    "answer": "This is tricky since the bottom numbers are different! Can you find a number that both 3 and 4 divide into? Once you change both fractions to have the same bottom number, which one will have the bigger top number?",
+    "language": "en"
+  },
+  {
+    "keywords": ["5/8", "meaning"],
+    "question": "What does 5/8 mean?",
+    "answer": "If a ribbon is cut into 8 equal pieces and you use 5 pieces, you've used 5/8 of the ribbon. Is that more than half the ribbon or less than half? How do you know?",
+    "language": "en"
+  },
+  {
+    "keywords": ["fraction", "decimal", "point"],
+    "question": "Are fractions related to decimals?",
+    "answer": "You know that 1/2 of something means half. Have you seen the number 0.5? They represent the same amount! Can you guess what 1/4 would be as a decimal? Think about money — how many paise is 1/4 of a rupee?",
+    "language": "en"
+  },
+  {
+    "keywords": ["ascending", "order", "arrange", "smallest"],
+    "question": "How do you arrange fractions in ascending order?",
+    "answer": "Let's arrange 1/2, 1/4, and 3/4 from smallest to biggest. Think about pizza slices — 1/4 of a pizza, 1/2 of a pizza, and 3/4 of a pizza. Which amount is the least? Which is the most? Can you put them in order?",
+    "language": "en"
+  },
+  {
+    "keywords": ["descending", "order", "largest", "biggest"],
+    "question": "How do you arrange fractions in descending order?",
+    "answer": "If you have 3/5, 1/5, and 4/5, which represents the most parts out of 5? They all have the same bottom number, so you just need to compare the top numbers. Which is biggest? Which is smallest?",
+    "language": "en"
+  },
+  {
+    "keywords": ["fraction", "shape", "circle", "shade"],
+    "question": "How do you show a fraction using a shape?",
+    "answer": "If I ask you to show 2/5, you'd draw a shape and divide it into 5 equal parts, then color 2 of them. Can you try that with a circle? What if I asked you to show 3/5 — how many parts would you color?",
+    "language": "en"
+  },
+  {
+    "keywords": ["convert", "mixed", "improper"],
+    "question": "How do you convert a mixed number to an improper fraction?",
+    "answer": "Let's take 2 1/3. That means 2 whole and 1/3 more. Each whole has 3/3 in it, right? So 2 wholes have how many thirds? Then add the extra 1/3. What's the total number of thirds?",
+    "language": "en"
+  },
+  {
+    "keywords": ["convert", "improper", "mixed"],
+    "question": "How do you convert an improper fraction to a mixed number?",
+    "answer": "Take 11/4. How many times does 4 go into 11? That gives you the whole number part. What's left over? That leftover becomes the fraction part. Can you try it?",
+    "language": "en"
+  },
+  {
+    "keywords": ["2/3", "plus", "1/3", "add"],
+    "question": "What is 2/3 + 1/3?",
+    "answer": "If you have 2 pieces of a cake that was cut into 3, and you find 1 more piece, how many pieces out of 3 do you have now? What does that equal as a whole number?",
+    "language": "en"
+  },
+  {
+    "keywords": ["5/6", "minus", "2/6", "subtract"],
+    "question": "What is 5/6 - 2/6?",
+    "answer": "You had 5 slices of a pizza that was cut into 6 slices. You gave 2 slices to your sister. How many slices do you have left? What fraction of the pizza is that?",
+    "language": "en"
+  },
+  {
+    "keywords": ["1/4", "plus", "2/4", "add"],
+    "question": "What is 1/4 + 2/4?",
+    "answer": "Imagine a chocolate bar split into 4 pieces. You have 1 piece, and your friend gives you 2 more. How many pieces out of 4 do you have now? What fraction is that?",
+    "language": "en"
+  },
+  {
+    "keywords": ["1/2", "plus", "1/4", "add"],
+    "question": "What is 1/2 + 1/4?",
+    "answer": "Hmm, 1/2 and 1/4 have different bottom numbers! But can you change 1/2 so it has 4 on the bottom? What's another way to write 1/2 using fourths? Once you do that, can you add them?",
+    "language": "en"
+  },
+  {
+    "keywords": ["3/5", "plus", "1/5"],
+    "question": "What is 3/5 + 1/5?",
+    "answer": "Think of 5 friends sharing a task. 3 have finished their part and 1 more just finished. How many out of 5 are done now? What fraction is that?",
+    "language": "en"
+  },
+  {
+    "keywords": ["7/8", "minus", "3/8"],
+    "question": "What is 7/8 - 3/8?",
+    "answer": "You colored 7 out of 8 boxes, then erased 3 of them. How many colored boxes are left? What fraction of all the boxes is still colored?",
+    "language": "en"
+  },
+  {
+    "keywords": ["whole", "number", "fraction", "write"],
+    "question": "How do you write a whole number as a fraction?",
+    "answer": "We know 1 whole pizza is the complete thing. If the pizza was cut into 4 pieces, how would you write 'one whole pizza' as a fraction? What about 2 whole pizzas — how many fourths would that be?",
+    "language": "en"
+  },
+  {
+    "keywords": ["half", "quarter", "bigger"],
+    "question": "Is 1/2 bigger than 1/4?",
+    "answer": "Think of two identical chapatis. You cut one in half and one in quarters. Take one piece from each. Which piece is bigger — the half or the quarter? When you cut something into MORE pieces, do the pieces get bigger or smaller?",
+    "language": "en"
+  },
+  {
+    "keywords": ["fraction", "whole", "number", "between"],
+    "question": "What fractions are between 0 and 1?",
+    "answer": "0 means nothing and 1 means the whole thing. When you eat some but not all of a cake, is that more than 0 but less than 1? What are some fractions that describe eating part of a cake?",
+    "language": "en"
+  },
+  {
+    "keywords": ["2/2", "3/3", "4/4", "equal", "one"],
+    "question": "Why does 2/2 equal 1?",
+    "answer": "If you cut a roti into 2 pieces and eat BOTH pieces, did you eat the whole roti? 2 out of 2 means all of it! What about 3/3 or 10/10 — do they also equal 1? Why?",
+    "language": "en"
+  },
+  {
+    "keywords": ["fraction", "group", "collection", "set"],
+    "question": "Can fractions represent parts of a group?",
+    "answer": "Imagine you have 6 marbles. 2 are red and 4 are blue. What fraction of the marbles are red? The total number of marbles is the bottom number, and the red ones are the top. Can you write that fraction?",
+    "language": "en"
+  },
+  {
+    "keywords": ["fraction", "word", "problem", "story"],
+    "question": "How do I solve fraction word problems?",
+    "answer": "Let's try one! Riya ate 2/5 of a cake and Priya ate 1/5 of the same cake. How much cake did they eat together? First, do the bottom numbers match? Then what do you do with the top numbers?",
+    "language": "en"
+  },
+  {
+    "keywords": ["why", "learn", "fractions", "important", "use"],
+    "question": "Why are fractions important?",
+    "answer": "Think about cooking — when a recipe says '1/2 cup of flour', you need fractions! What about telling time — 'quarter past 3' means 1/4 of an hour has passed. Can you think of a time you used fractions today without even realizing it?",
+    "language": "en"
+  },
+  {
+    "keywords": ["mistake", "common", "error", "wrong"],
+    "question": "What are common mistakes with fractions?",
+    "answer": "A student added 1/2 + 1/3 and got 2/5. They added both the top AND bottom numbers! Is that right? If you have half a pizza and a third of another pizza, would you have 2/5 of a pizza? What went wrong?",
+    "language": "en"
+  },
+  {
+    "keywords": ["fraction", "greater", "than", "one", "more"],
+    "question": "Can a fraction be greater than 1?",
+    "answer": "You have 5/4. That's 5 parts out of 4! But 4/4 is already a whole. So 5/4 is one whole and... how much more? Is 5/4 more than 1? What does it look like with pizzas?",
+    "language": "en"
+  },
+  {
+    "keywords": ["number", "fraction", "types", "kinds"],
+    "question": "What are the types of fractions?",
+    "answer": "Let's think of three fractions: 2/5, 7/3, and 3 1/4. In one, the top is smaller than the bottom. In another, the top is bigger. The third mixes a whole number with a fraction. Can you name each type?",
+    "language": "en"
+  },
+  {
+    "keywords": ["fraction", "wall", "strip"],
+    "question": "What is a fraction wall?",
+    "answer": "Imagine stacking strips of paper. The top strip is 1 whole. The next row has 2 equal pieces (halves), then 3 (thirds), then 4 (quarters). If you compare, how many sixths equal one half? Can you figure it out by looking at the strips?",
+    "language": "en"
+  },
+  {
+    "keywords": ["1/3", "plus", "1/6"],
+    "question": "What is 1/3 + 1/6?",
+    "answer": "The bottom numbers are 3 and 6 — they're different! But wait, can you change 1/3 so it has 6 on the bottom? If you multiply both top and bottom of 1/3 by 2, what do you get? Now can you add?",
+    "language": "en"
+  },
+  {
+    "keywords": ["how", "many", "halves", "whole"],
+    "question": "How many halves make a whole?",
+    "answer": "If you tear a paper in half, you get 2 pieces. Put them back together and you have the whole paper again! So how many 1/2 pieces make 1 whole? What about how many 1/4 pieces make a whole?",
+    "language": "en"
+  },
+  {
+    "keywords": ["3", "1/2", "mixed", "improper"],
+    "question": "How do you write 3 1/2 as an improper fraction?",
+    "answer": "You have 3 whole chapatis and half a chapati. If each chapati is cut into 2 halves, the 3 chapatis give you how many halves? Add the extra half — what's the total number of halves?",
+    "language": "en"
+  },
+  {
+    "keywords": ["9/4", "mixed", "convert"],
+    "question": "How do you convert 9/4 to a mixed number?",
+    "answer": "You have 9 quarter-slices of pizza. Each full pizza has 4 quarters. How many full pizzas can you make from 9 quarters? How many quarters are left over? That gives you your mixed number!",
+    "language": "en"
+  },
+  {
+    "keywords": ["1/5", "1/10", "compare"],
+    "question": "Is 1/5 bigger than 1/10?",
+    "answer": "Imagine a ribbon. Cut one ribbon into 5 equal pieces and another identical ribbon into 10 equal pieces. Which ribbon's pieces are longer — the one cut into 5 or the one cut into 10? Why?",
+    "language": "en"
+  },
+  {
+    "keywords": ["fraction", "percentage", "percent"],
+    "question": "How are fractions and percentages related?",
+    "answer": "You scored 4/5 on a test. To find the percentage, you need to convert to 'out of 100'. If 5 goes into 100 exactly 20 times, what would you multiply both top and bottom by? What percentage did you score?",
+    "language": "en"
+  },
+  {
+    "keywords": ["शून्य", "0", "भिन्न"],
+    "question": "क्या भिन्न शून्य हो सकती है?",
+    "answer": "अगर तुम्हारे पास 6 चॉकलेट हैं और तुमने एक भी नहीं खाई, तो कितनी खाई? 0/6 बराबर क्या होगा? क्या 0/100 भी वही होगा? जब ऊपर 0 हो तो क्या होता है?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["इकाई", "भिन्न"],
+    "question": "इकाई भिन्न क्या है?",
+    "answer": "ऐसी भिन्नों के बारे में सोचो जिनमें ऊपर हमेशा 1 हो, जैसे 1/2, 1/3, 1/4। इनमें क्या खास बात है? अगर एक रिबन को बराबर हिस्सों में काटो और सिर्फ एक हिस्सा लो, तो वह कैसी भिन्न होगी?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["संख्या", "रेखा", "दिखाना"],
+    "question": "संख्या रेखा पर भिन्न कैसे दिखाएँ?",
+    "answer": "0 से 1 तक एक सड़क की कल्पना करो। अगर इसे 4 बराबर भागों में बाँटो, तो 3/4 कहाँ होगा? शुरुआत से कितने भाग चलना होगा? 1/4 और 2/4 कहाँ होंगे?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["सरल", "करना", "सबसे", "छोटा"],
+    "question": "भिन्न को सरल कैसे करें?",
+    "answer": "अगर तुम्हारे पास पिज़्ज़ा का 4/8 हिस्सा है, तो इसे सरल तरीके से कैसे कहोगे? अगर ऊपर और नीचे दोनों को एक ही संख्या से भाग दो तो? 4 और 8 दोनों को किससे भाग दे सकते हो?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["बदलना", "मिश्रित", "विषम"],
+    "question": "मिश्रित संख्या को विषम भिन्न में कैसे बदलें?",
+    "answer": "2 1/3 लो। इसमें 2 पूरे और 1/3 और है। हर पूरे में 3/3 होते हैं, तो 2 पूरों में कितने तिहाई हैं? फिर 1/3 और जोड़ो। कुल कितने तिहाई हुए?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["2/3", "जोड़", "1/3"],
+    "question": "2/3 + 1/3 कितना है?",
+    "answer": "अगर एक केक 3 हिस्सों में कटा है और तुम्हारे पास 2 हिस्से हैं, फिर 1 और मिल जाए, तो तुम्हारे पास 3 में से कितने हिस्से हैं? यह पूरी संख्या में क्या बनता है?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["5/6", "घटाना", "2/6"],
+    "question": "5/6 - 2/6 कितना है?",
+    "answer": "तुम्हारे पास 6 टुकड़ों वाले पिज़्ज़ा के 5 टुकड़े थे। 2 बहन को दे दिए। अब कितने बचे? पिज़्ज़ा की कितनी भिन्न बची?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["आधा", "चौथाई", "बड़ा"],
+    "question": "1/2 बड़ा है या 1/4?",
+    "answer": "दो एक जैसी रोटियाँ सोचो। एक को दो हिस्सों में काटो, दूसरी को चार में। हर एक से एक टुकड़ा लो। कौन सा टुकड़ा बड़ा है — आधा या चौथाई? ज़्यादा टुकड़ों में काटने से क्या होता है?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["1/2", "1/4", "जोड़"],
+    "question": "1/2 + 1/4 कितना है?",
+    "answer": "1/2 और 1/4 में नीचे की संख्या अलग है! लेकिन क्या 1/2 को ऐसे लिख सकते हो कि नीचे 4 आ जाए? 1/2 में ऊपर-नीचे 2 से गुणा करो — क्या मिलता है? अब जोड़ सकते हो?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["7/4", "मिश्रित", "बदलना"],
+    "question": "7/4 को मिश्रित संख्या में कैसे बदलें?",
+    "answer": "तुम्हारे पास 7 चौथाई-टुकड़े हैं। हर पूरे पिज़्ज़ा में 4 टुकड़े होते हैं। 7 टुकड़ों से कितने पूरे पिज़्ज़ा बनेंगे? कितने बचेंगे? यही मिश्रित संख्या है!",
+    "language": "hi"
+  },
+  {
+    "keywords": ["fraction", "equal", "divide", "fair"],
+    "question": "Why do fractions need equal parts?",
+    "answer": "If you and a friend share an apple, but your friend cuts a tiny piece for you and keeps the rest — is that fair sharing? Is that truly 1/2? Why must all parts be the same size for a fraction to be correct?",
+    "language": "en"
+  },
+  {
+    "keywords": ["tape", "diagram", "fraction", "bar"],
+    "question": "What is a tape diagram for fractions?",
+    "answer": "Draw a long rectangle and divide it into 5 equal boxes. If you color 3 boxes, what fraction is colored? What fraction is NOT colored? The two fractions together should make a whole — do they?",
+    "language": "en"
+  },
+  {
+    "keywords": ["more", "than", "half", "less"],
+    "question": "How do you know if a fraction is more or less than 1/2?",
+    "answer": "Look at 3/8. The bottom is 8, so half would be 4/8. Is 3 more or less than 4? So is 3/8 more or less than half? What about 5/8 — is that more or less than half?",
+    "language": "en"
+  },
+  {
+    "keywords": ["1/6", "plus", "1/6"],
+    "question": "What is 1/6 + 1/6?",
+    "answer": "A cake is cut into 6 pieces. You eat one piece, then you eat another. How many pieces out of 6 have you eaten? Is that more or less than half the cake?",
+    "language": "en"
+  },
+  {
+    "keywords": ["same", "denominator", "why", "important"],
+    "question": "Why do we need the same denominator to add fractions?",
+    "answer": "Imagine adding 1/3 of a pizza and 1/4 of a pizza. The slices are different sizes! It's like adding 1 apple and 1 orange — you need a common unit. What if we cut both into pieces of the same size?",
+    "language": "en"
+  },
+  {
+    "keywords": ["fraction", "cooking", "recipe", "cup"],
+    "question": "How are fractions used in cooking?",
+    "answer": "A recipe needs 3/4 cup of flour. But you only have a 1/4 cup measuring tool. How many times would you need to scoop to get 3/4 cup? What if you needed 1/2 cup — could you use the 1/4 cup tool?",
+    "language": "en"
+  },
+  {
+    "keywords": ["fraction", "time", "clock", "hour"],
+    "question": "How do we use fractions to tell time?",
+    "answer": "An hour has 60 minutes. When we say 'half past 3', how many minutes is that? What about 'quarter past'? What fraction of an hour is 15 minutes? Can you figure out 'quarter to 4'?",
+    "language": "en"
+  },
+  {
+    "keywords": ["2/4", "simplify", "simple"],
+    "question": "What is 2/4 in its simplest form?",
+    "answer": "Both 2 and 4 can be divided by the same number. What number divides both 2 and 4? When you divide both the top and bottom by that number, what fraction do you get? Does it represent the same amount?",
+    "language": "en"
+  },
+  {
+    "keywords": ["6/8", "simplify", "reduce"],
+    "question": "Can you simplify 6/8?",
+    "answer": "Look at 6 and 8. Can you think of a number that goes into both 6 and 8 evenly? Try 2 — what do you get when you divide both by 2? Is there another number that works too?",
+    "language": "en"
+  },
+  {
+    "keywords": ["pattern", "1/2", "1/3", "1/4", "1/5"],
+    "question": "What pattern do you see in 1/2, 1/3, 1/4, 1/5?",
+    "answer": "As the bottom number gets bigger, what happens to the fraction — does it get bigger or smaller? If you cut a cake into 2 pieces vs 100 pieces, which gives you bigger individual pieces? Why does that happen?",
+    "language": "en"
+  },
+  {
+    "keywords": ["fraction", "money", "rupee", "paise"],
+    "question": "How do fractions relate to money?",
+    "answer": "1 rupee = 100 paise. So 50 paise is what fraction of a rupee? What about 25 paise — can you write that as a fraction? And 75 paise? You're already using fractions with money every day!",
+    "language": "en"
+  },
+  {
+    "keywords": ["fraction", "multiplication", "of"],
+    "question": "What does 'of' mean with fractions?",
+    "answer": "When we say '1/2 of 10', we mean splitting 10 into 2 equal groups and taking 1 group. How many is that? Now try '1/4 of 12' — split 12 into 4 groups. How many in each group?",
+    "language": "en"
+  },
+  {
+    "keywords": ["cross", "multiply", "compare"],
+    "question": "What is cross multiplication for comparing fractions?",
+    "answer": "Compare 2/3 and 3/5. Multiply 2 times 5 to get one number, and 3 times 3 to get another. Which product is bigger? The bigger product tells you which fraction is bigger. Can you try it? Which side wins?",
+    "language": "en"
+  },
+  {
+    "keywords": ["fraction", "bar", "model"],
+    "question": "How does a fraction bar model work?",
+    "answer": "Draw a bar split into 8 equal sections. Color 5 sections blue. What fraction is blue? What fraction is NOT blue? If you colored 3 more sections, what fraction would be blue then? What would that equal?",
+    "language": "en"
+  },
+  {
+    "keywords": ["fraction", "distance", "measurement"],
+    "question": "How do fractions help with measurement?",
+    "answer": "A ruler shows centimeters, but what about the small lines between them? Those mark halves and quarters! If something is between 3 cm and 4 cm, say at the halfway mark, how long is it? Can you use a fraction?",
+    "language": "en"
+  },
+  {
+    "keywords": ["numerator", "bigger", "denominator"],
+    "question": "What happens when the numerator is bigger than the denominator?",
+    "answer": "In 7/5, the top number (7) is bigger than the bottom (5). Since 5/5 = 1 whole, 7/5 means you have 1 whole plus how many more fifths? Is 7/5 more than 1 or less than 1?",
+    "language": "en"
+  },
+  {
+    "keywords": ["fraction", "game", "fun"],
+    "question": "Can we play a fraction game?",
+    "answer": "Sure! I'll think of a fraction between 0 and 1. It has a denominator of 6. The numerator is more than 2 but less than 5. Can you guess what fraction I'm thinking of? (Hint: there might be more than one answer!)",
+    "language": "en"
+  },
+  {
+    "keywords": ["fraction", "cricket", "score", "sports"],
+    "question": "How are fractions used in cricket?",
+    "answer": "A cricket match is measured in overs. Each over has 6 balls. If a bowler bowled 3 balls of an over, what fraction of the over is done? What fraction is left? You see fractions in sports too — can you think of another example?",
+    "language": "en"
+  },
+  {
+    "keywords": ["गिनना", "कितने", "आधे"],
+    "question": "एक पूरे में कितने आधे होते हैं?",
+    "answer": "एक कागज़ को बीच से फाड़ो — 2 टुकड़े मिलते हैं। दोनों जोड़ो तो पूरा कागज़ वापस! तो 1 पूरे में कितने 1/2 हैं? और 1 पूरे में कितने 1/4 हैं?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["क्रम", "छोटे", "बड़े", "लगाना"],
+    "question": "भिन्नों को क्रम में कैसे लगाएँ?",
+    "answer": "1/2, 1/4, और 3/4 को छोटे से बड़े में लगाओ। पिज़्ज़ा के बारे में सोचो — 1/4 पिज़्ज़ा, 1/2 पिज़्ज़ा, और 3/4 पिज़्ज़ा। कौन सी मात्रा सबसे कम है? कौन सी सबसे ज़्यादा?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["आकार", "गोला", "भिन्न", "दिखाना"],
+    "question": "आकार में भिन्न कैसे दिखाएँ?",
+    "answer": "एक लंबा आयत बनाओ और 5 बराबर खानों में बाँटो। 3 खाने रंगो तो कितनी भिन्न रंगी? कितनी नहीं रंगी? दोनों भिन्न मिलकर क्या बनती हैं?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["पैसे", "रुपया", "भिन्न"],
+    "question": "भिन्न और पैसों का क्या संबंध है?",
+    "answer": "1 रुपया = 100 पैसे। तो 50 पैसे रुपये की कितनी भिन्न है? 25 पैसे? 75 पैसे? तुम हर दिन पैसों में भिन्नों का उपयोग करते हो!",
+    "language": "hi"
+  },
+  {
+    "keywords": ["समय", "घड़ी", "भिन्न"],
+    "question": "समय में भिन्न कैसे काम करते हैं?",
+    "answer": "1 घंटे में 60 मिनट होते हैं। जब हम कहते हैं 'सवा 3' तो 15 मिनट हुए — यह घंटे की कितनी भिन्न है? 'साढ़े 3' में? 'पौने 4' में?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["सवाल", "कहानी", "शब्द", "समस्या"],
+    "question": "भिन्न के शब्द प्रश्न कैसे हल करें?",
+    "answer": "रिया ने केक का 2/5 खाया और प्रिया ने 1/5 खाया। दोनों ने कुल कितना खाया? पहले देखो — नीचे की संख्या एक जैसी है? फिर ऊपर की संख्याओं का क्या करोगे?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["ग़लती", "गलत", "आम"],
+    "question": "भिन्नों में आम ग़लतियाँ क्या हैं?",
+    "answer": "एक छात्र ने 1/2 + 1/3 जोड़ा और 2/5 लिखा — उसने ऊपर और नीचे दोनों जोड़ दिए! क्या यह सही है? आधा पिज़्ज़ा और तिहाई पिज़्ज़ा जोड़ने पर 2/5 पिज़्ज़ा मिलेगा? क्या ग़लत हुआ?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["6/8", "सरल"],
+    "question": "6/8 को सरल करो",
+    "answer": "6 और 8 को देखो। कोई ऐसी संख्या है जो दोनों में बराबर भाग जाए? 2 से भाग दो — ऊपर और नीचे क्या मिलता है? क्या कोई और संख्या भी काम करती है?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["3 1/2", "विषम", "बदलना"],
+    "question": "3 1/2 को विषम भिन्न में कैसे बदलें?",
+    "answer": "3 पूरी रोटियाँ और आधी रोटी। हर रोटी 2 आधों में कटती है। 3 रोटियों से कितने आधे मिलेंगे? और 1 आधा जोड़ो — कुल कितने आधे हुए?",
+    "language": "hi"
+  },
+  {
+    "keywords": ["1/3", "जोड़", "1/6"],
+    "question": "1/3 + 1/6 कितना है?",
+    "answer": "नीचे 3 और 6 हैं — अलग-अलग! पर 1/3 को ऐसे बदल सकते हो कि नीचे 6 आ जाए? 1/3 में ऊपर-नीचे 2 से गुणा करो — क्या मिलता है? अब जोड़ सकते हो?",
+    "language": "hi"
+  }
+]

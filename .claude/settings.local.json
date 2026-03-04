@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(electron:*)",
+      "WebSearch",
+      "Bash(npm init:*)",
+      "Bash(cp:*)",
+      "Bash(npm install:*)",
+      "Bash(npm:*)",
+      "Bash(git:*)"
+    ]
+  }
+}
